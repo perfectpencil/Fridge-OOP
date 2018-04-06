@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.o CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.o CMakeFiles/Test_fridge.dir/src/fridge.cpp.o  -o ../bin/Test_fridge -lpthread ../lib/libgtest.a ../lib/libsources.a -lpthread 

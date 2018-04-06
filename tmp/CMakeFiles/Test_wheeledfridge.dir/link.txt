@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Test_wheeledfridge.dir/src/Test_wheeledfridge.cpp.o CMakeFiles/Test_wheeledfridge.dir/src/Test_Main.cpp.o  -o ../bin/Test_wheeledfridge -lpthread ../lib/libgtest.a ../lib/libsources.a -lpthread 

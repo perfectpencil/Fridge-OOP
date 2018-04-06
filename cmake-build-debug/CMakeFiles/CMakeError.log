@@ -1,0 +1,79 @@
+Detecting CXX [-std=c++98] compiler features failed to compile with the following output:
+Change Dir: C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_bb78f/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bb78f.dir\build.make CMakeFiles/cmTC_bb78f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb78f.dir/feature_tests.cxx.obj
+C:\MinGW\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_bb78f.dir\feature_tests.cxx.obj -c C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_bb78f.exe
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bb78f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bb78f.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_bb78f.dir/objects.a @CMakeFiles\cmTC_bb78f.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_bb78f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bb78f.exe -Wl,--out-implib,libcmTC_bb78f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bb78f.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Cannot copy output executable
+  'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp/cmTC_bb78f.exe'
+to destination specified by COPY_FILE:
+  'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/feature_tests.bin'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_5a1c3/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5a1c3.dir\build.make CMakeFiles/cmTC_5a1c3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a1c3.dir/CheckSymbolExists.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_5a1c3.dir\CheckSymbolExists.c.obj   -c C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTC_5a1c3.exe
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5a1c3.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5a1c3.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_5a1c3.dir/objects.a @CMakeFiles\cmTC_5a1c3.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_5a1c3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5a1c3.exe -Wl,--out-implib,libcmTC_5a1c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5a1c3.dir\linklibs.rsp
+CMakeFiles\cmTC_5a1c3.dir/objects.a(CheckSymbolExists.c.obj):CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_5a1c3.dir\build.make:98: recipe for target 'cmTC_5a1c3.exe' failed
+mingw32-make.exe[1]: *** [cmTC_5a1c3.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_5a1c3/fast' failed
+mingw32-make.exe: *** [cmTC_5a1c3/fast] Error 2
+
+File C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_445d2/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_445d2.dir\build.make CMakeFiles/cmTC_445d2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_445d2.dir/CheckFunctionExists.c.obj
+C:\MinGW\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles\cmTC_445d2.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_445d2.exe
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_445d2.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_445d2.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_445d2.dir/objects.a @CMakeFiles\cmTC_445d2.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create    -Wl,--whole-archive CMakeFiles\cmTC_445d2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_445d2.exe -Wl,--out-implib,libcmTC_445d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_445d2.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lpthreads
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_445d2.dir\build.make:98: recipe for target 'cmTC_445d2.exe' failed
+mingw32-make.exe[1]: *** [cmTC_445d2.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_445d2/fast' failed
+mingw32-make.exe: *** [cmTC_445d2/fast] Error 2
+
+

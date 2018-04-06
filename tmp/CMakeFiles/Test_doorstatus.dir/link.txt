@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Test_doorstatus.dir/src/Test_doorstatus.cpp.o CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.o  -o ../bin/Test_doorstatus -lpthread ../lib/libgtest.a ../lib/libsources.a -lpthread 
