@@ -76,16 +76,14 @@ CMakeFiles/sources.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/google
 CMakeFiles/sources.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/sources.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-type-util.h
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o: ../src/Test_wheeledfridge.cpp
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.o: ../src/Test_wheeled.cpp
 
 CMakeFiles/sources.dir/src/doorstatusext.cpp.o: ../include/doorstatusext.h
-CMakeFiles/sources.dir/src/doorstatusext.cpp.o: ../include/fridge.h
 CMakeFiles/sources.dir/src/doorstatusext.cpp.o: ../src/doorstatusext.cpp
 
-CMakeFiles/sources.dir/src/fridge.cpp.o: ../include/doorstatusext.h
 CMakeFiles/sources.dir/src/fridge.cpp.o: ../include/fridge.h
 CMakeFiles/sources.dir/src/fridge.cpp.o: ../src/fridge.cpp
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o: ../include/wheeledfridge.h
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o: ../src/wheeledfridge.cpp
+CMakeFiles/sources.dir/src/wheeled.cpp.o: ../include/wheeled.h
+CMakeFiles/sources.dir/src/wheeled.cpp.o: ../src/wheeled.cpp
 

@@ -60,40 +60,40 @@ CMAKE_SOURCE_DIR = /mnt/c/Users/Candy/projects/Fridge
 CMAKE_BINARY_DIR = /mnt/c/Users/Candy/projects/Fridge/tmp
 
 #=============================================================================
-# Target rules for target CMakeFiles/Test_wheeledfridge.dir
+# Target rules for target CMakeFiles/Test_wheeled.dir
 
 # All Build rule for target.
-CMakeFiles/Test_wheeledfridge.dir/all: CMakeFiles/gtest.dir/all
-CMakeFiles/Test_wheeledfridge.dir/all: CMakeFiles/sources.dir/all
-	$(MAKE) -f CMakeFiles/Test_wheeledfridge.dir/build.make CMakeFiles/Test_wheeledfridge.dir/depend
-	$(MAKE) -f CMakeFiles/Test_wheeledfridge.dir/build.make CMakeFiles/Test_wheeledfridge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=8,9,10 "Built target Test_wheeledfridge"
-.PHONY : CMakeFiles/Test_wheeledfridge.dir/all
+CMakeFiles/Test_wheeled.dir/all: CMakeFiles/gtest.dir/all
+CMakeFiles/Test_wheeled.dir/all: CMakeFiles/sources.dir/all
+	$(MAKE) -f CMakeFiles/Test_wheeled.dir/build.make CMakeFiles/Test_wheeled.dir/depend
+	$(MAKE) -f CMakeFiles/Test_wheeled.dir/build.make CMakeFiles/Test_wheeled.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=8,9,10 "Built target Test_wheeled"
+.PHONY : CMakeFiles/Test_wheeled.dir/all
 
 # Include target in all.
-all: CMakeFiles/Test_wheeledfridge.dir/all
+all: CMakeFiles/Test_wheeled.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Test_wheeledfridge.dir/rule: cmake_check_build_system
+CMakeFiles/Test_wheeled.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Test_wheeledfridge.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Test_wheeled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles 0
-.PHONY : CMakeFiles/Test_wheeledfridge.dir/rule
+.PHONY : CMakeFiles/Test_wheeled.dir/rule
 
 # Convenience name for target.
-Test_wheeledfridge: CMakeFiles/Test_wheeledfridge.dir/rule
+Test_wheeled: CMakeFiles/Test_wheeled.dir/rule
 
-.PHONY : Test_wheeledfridge
-
-# clean rule for target.
-CMakeFiles/Test_wheeledfridge.dir/clean:
-	$(MAKE) -f CMakeFiles/Test_wheeledfridge.dir/build.make CMakeFiles/Test_wheeledfridge.dir/clean
-.PHONY : CMakeFiles/Test_wheeledfridge.dir/clean
+.PHONY : Test_wheeled
 
 # clean rule for target.
-clean: CMakeFiles/Test_wheeledfridge.dir/clean
+CMakeFiles/Test_wheeled.dir/clean:
+	$(MAKE) -f CMakeFiles/Test_wheeled.dir/build.make CMakeFiles/Test_wheeled.dir/clean
+.PHONY : CMakeFiles/Test_wheeled.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Test_wheeled.dir/clean
 
 .PHONY : clean
 

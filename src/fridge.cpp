@@ -1,9 +1,4 @@
-//
-// Created by Candy on 3/17/2018.
-//
-
 #include "fridge.h"
-#include "doorstatusext.h"
 #include <iostream>
 #include <stdexcept>
 #include <sstream>

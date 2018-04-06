@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o"
   "CMakeFiles/sources.dir/src/Test_fridge.cpp.o"
   "CMakeFiles/sources.dir/src/Test_Main.cpp.o"
-  "CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o"
-  "CMakeFiles/sources.dir/src/wheeledfridge.cpp.o"
+  "CMakeFiles/sources.dir/src/Test_wheeled.cpp.o"
+  "CMakeFiles/sources.dir/src/wheeled.cpp.o"
   "../lib/libsources.pdb"
   "../lib/libsources.a"
 )

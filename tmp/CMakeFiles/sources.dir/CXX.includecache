@@ -7,14 +7,12 @@
 #IncludeRegexTransform: 
 
 ../include/doorstatusext.h
-fridge.h
-../include/fridge.h
 
 ../include/fridge.h
 memory
 -
 
-../include/wheeledfridge.h
+../include/wheeled.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp
 gtest/gtest.h
@@ -38,19 +36,17 @@ stdexcept
 fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
 
-/mnt/c/Users/Candy/projects/Fridge/src/Test_wheeledfridge.cpp
+/mnt/c/Users/Candy/projects/Fridge/src/Test_wheeled.cpp
 
 /mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.cpp
-doorstatusext.h
-/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.h
 iostream
 -
+doorstatusext.h
+/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp
 fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
-doorstatusext.h
-/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.h
 iostream
 -
 stdexcept
@@ -58,11 +54,11 @@ stdexcept
 sstream
 -
 
-/mnt/c/Users/Candy/projects/Fridge/src/wheeledfridge.cpp
-wheeledfridge.h
-/mnt/c/Users/Candy/projects/Fridge/src/wheeledfridge.h
+/mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp
 iostream
 -
+wheeled.h
+/mnt/c/Users/Candy/projects/Fridge/src/wheeled.h
 
 /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

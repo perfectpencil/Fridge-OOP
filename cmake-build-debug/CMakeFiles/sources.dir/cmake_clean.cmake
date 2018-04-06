@@ -2,10 +2,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sources.dir/src/Test_Main.cpp.obj"
   "CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj"
   "CMakeFiles/sources.dir/src/Test_fridge.cpp.obj"
-  "CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.obj"
+  "CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj"
   "CMakeFiles/sources.dir/src/doorstatusext.cpp.obj"
   "CMakeFiles/sources.dir/src/fridge.cpp.obj"
-  "CMakeFiles/sources.dir/src/wheeledfridge.cpp.obj"
+  "CMakeFiles/sources.dir/src/wheeled.cpp.obj"
   "../lib/libsources.pdb"
   "../lib/libsources.a"
 )

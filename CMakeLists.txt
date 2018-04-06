@@ -104,6 +104,6 @@ target_link_libraries(Test_fridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 add_executable(Test_doorstatus src/Test_doorstatus.cpp src/Test_Main.cpp)
 target_link_libraries(Test_doorstatus ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 
-add_executable(Test_wheeledfridge src/Test_wheeledfridge.cpp src/Test_Main.cpp)
-target_link_libraries(Test_wheeledfridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+add_executable(Test_wheeled src/Test_wheeled.cpp src/Test_Main.cpp)
+target_link_libraries(Test_wheeled ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 

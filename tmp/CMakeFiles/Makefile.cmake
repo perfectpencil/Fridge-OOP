@@ -48,7 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Test_wheeledfridge.dir/DependInfo.cmake"
+  "CMakeFiles/Test_wheeled.dir/DependInfo.cmake"
   "CMakeFiles/gtest.dir/DependInfo.cmake"
   "CMakeFiles/Test_fridge.dir/DependInfo.cmake"
   "CMakeFiles/Test_doorstatus.dir/DependInfo.cmake"

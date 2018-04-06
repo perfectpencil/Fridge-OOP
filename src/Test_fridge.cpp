@@ -1,7 +1,3 @@
-//
-// Created by Candy on 3/17/2018.
-//
-
 #include <gtest/gtest.h>
 #include <stdexcept>
 

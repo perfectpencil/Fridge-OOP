@@ -177,52 +177,52 @@ CMakeFiles/sources.dir/src/Test_Main.cpp.o.provides: CMakeFiles/sources.dir/src/
 CMakeFiles/sources.dir/src/Test_Main.cpp.o.provides.build: CMakeFiles/sources.dir/src/Test_Main.cpp.o
 
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o: CMakeFiles/sources.dir/flags.make
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o: ../src/Test_wheeledfridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/Test_wheeledfridge.cpp
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.o: ../src/Test_wheeled.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sources.dir/src/Test_wheeled.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/Test_wheeled.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/Test_wheeled.cpp
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/Test_wheeledfridge.cpp > CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.i
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/Test_wheeled.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/Test_wheeled.cpp > CMakeFiles/sources.dir/src/Test_wheeled.cpp.i
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/Test_wheeledfridge.cpp -o CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.s
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/Test_wheeled.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/Test_wheeled.cpp -o CMakeFiles/sources.dir/src/Test_wheeled.cpp.s
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.requires:
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.requires:
 
-.PHONY : CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.requires
+.PHONY : CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.requires
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.provides: CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.requires
-	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.provides.build
-.PHONY : CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.provides
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.provides: CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.provides
 
-CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.provides.build: CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o
+CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.provides.build: CMakeFiles/sources.dir/src/Test_wheeled.cpp.o
 
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o: CMakeFiles/sources.dir/flags.make
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o: ../src/wheeledfridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sources.dir/src/wheeledfridge.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/wheeledfridge.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/wheeledfridge.cpp
+CMakeFiles/sources.dir/src/wheeled.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/wheeled.cpp.o: ../src/wheeled.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sources.dir/src/wheeled.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/wheeled.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/wheeledfridge.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/wheeledfridge.cpp > CMakeFiles/sources.dir/src/wheeledfridge.cpp.i
+CMakeFiles/sources.dir/src/wheeled.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/wheeled.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp > CMakeFiles/sources.dir/src/wheeled.cpp.i
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/wheeledfridge.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/wheeledfridge.cpp -o CMakeFiles/sources.dir/src/wheeledfridge.cpp.s
+CMakeFiles/sources.dir/src/wheeled.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/wheeled.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp -o CMakeFiles/sources.dir/src/wheeled.cpp.s
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.requires:
+CMakeFiles/sources.dir/src/wheeled.cpp.o.requires:
 
-.PHONY : CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.requires
+.PHONY : CMakeFiles/sources.dir/src/wheeled.cpp.o.requires
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.provides: CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.requires
-	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.provides.build
-.PHONY : CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.provides
+CMakeFiles/sources.dir/src/wheeled.cpp.o.provides: CMakeFiles/sources.dir/src/wheeled.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/wheeled.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/wheeled.cpp.o.provides
 
-CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.provides.build: CMakeFiles/sources.dir/src/wheeledfridge.cpp.o
+CMakeFiles/sources.dir/src/wheeled.cpp.o.provides.build: CMakeFiles/sources.dir/src/wheeled.cpp.o
 
 
 # Object files for target sources
@@ -232,8 +232,8 @@ sources_OBJECTS = \
 "CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o" \
 "CMakeFiles/sources.dir/src/Test_fridge.cpp.o" \
 "CMakeFiles/sources.dir/src/Test_Main.cpp.o" \
-"CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o" \
-"CMakeFiles/sources.dir/src/wheeledfridge.cpp.o"
+"CMakeFiles/sources.dir/src/Test_wheeled.cpp.o" \
+"CMakeFiles/sources.dir/src/wheeled.cpp.o"
 
 # External object files for target sources
 sources_EXTERNAL_OBJECTS =
@@ -243,8 +243,8 @@ sources_EXTERNAL_OBJECTS =
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_fridge.cpp.o
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_Main.cpp.o
-../lib/libsources.a: CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o
-../lib/libsources.a: CMakeFiles/sources.dir/src/wheeledfridge.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/Test_wheeled.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/wheeled.cpp.o
 ../lib/libsources.a: CMakeFiles/sources.dir/build.make
 ../lib/libsources.a: CMakeFiles/sources.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../lib/libsources.a"
@@ -261,8 +261,8 @@ CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/fridge.cpp.o.require
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_fridge.cpp.o.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_Main.cpp.o.requires
-CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o.requires
-CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/wheeledfridge.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_wheeled.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/wheeled.cpp.o.requires
 
 .PHONY : CMakeFiles/sources.dir/requires
 

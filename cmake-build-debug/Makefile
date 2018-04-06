@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = C:\Users\Candy\projects\Fridge\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2017.3.4\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -149,6 +149,19 @@ Test_fridge/fast:
 .PHONY : Test_fridge/fast
 
 #=============================================================================
+# Target rules for targets named Test_wheeled
+
+# Build rule for target.
+Test_wheeled: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Test_wheeled
+.PHONY : Test_wheeled
+
+# fast build rule for target.
+Test_wheeled/fast:
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/build
+.PHONY : Test_wheeled/fast
+
+#=============================================================================
 # Target rules for targets named Test_doorstatus
 
 # Build rule for target.
@@ -161,46 +174,6 @@ Test_doorstatus/fast:
 	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/build
 .PHONY : Test_doorstatus/fast
 
-#=============================================================================
-# Target rules for targets named Test_wheeledfridge
-
-# Build rule for target.
-Test_wheeledfridge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Test_wheeledfridge
-.PHONY : Test_wheeledfridge
-
-# fast build rule for target.
-Test_wheeledfridge/fast:
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/build
-.PHONY : Test_wheeledfridge/fast
-
-C_/Users/Candy/projects/googletest/googletest/src/gtest-all.obj: C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj
-
-.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.obj
-
-# target to build an object file
-C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj:
-	$(MAKE) -f CMakeFiles\gtest.dir\build.make CMakeFiles/gtest.dir/C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj
-.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj
-
-C_/Users/Candy/projects/googletest/googletest/src/gtest-all.i: C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
-
-.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.i
-
-# target to preprocess a source file
-C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i:
-	$(MAKE) -f CMakeFiles\gtest.dir\build.make CMakeFiles/gtest.dir/C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
-.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
-
-C_/Users/Candy/projects/googletest/googletest/src/gtest-all.s: C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
-
-.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.s
-
-# target to generate assembly for a file
-C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s:
-	$(MAKE) -f CMakeFiles\gtest.dir\build.make CMakeFiles/gtest.dir/C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
-.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
-
 src/Test_Main.obj: src/Test_Main.cpp.obj
 
 .PHONY : src/Test_Main.obj
@@ -209,8 +182,8 @@ src/Test_Main.obj: src/Test_Main.cpp.obj
 src/Test_Main.cpp.obj:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_Main.cpp.obj
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.obj
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.obj
 	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.obj
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/src/Test_Main.cpp.obj
 .PHONY : src/Test_Main.cpp.obj
 
 src/Test_Main.i: src/Test_Main.cpp.i
@@ -221,8 +194,8 @@ src/Test_Main.i: src/Test_Main.cpp.i
 src/Test_Main.cpp.i:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_Main.cpp.i
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.i
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.i
 	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.i
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/src/Test_Main.cpp.i
 .PHONY : src/Test_Main.cpp.i
 
 src/Test_Main.s: src/Test_Main.cpp.s
@@ -233,8 +206,8 @@ src/Test_Main.s: src/Test_Main.cpp.s
 src/Test_Main.cpp.s:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_Main.cpp.s
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.s
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.s
 	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.s
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/src/Test_Main.cpp.s
 .PHONY : src/Test_Main.cpp.s
 
 src/Test_doorstatus.obj: src/Test_doorstatus.cpp.obj
@@ -297,35 +270,35 @@ src/Test_fridge.cpp.s:
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.s
 .PHONY : src/Test_fridge.cpp.s
 
-src/Test_wheeledfridge.obj: src/Test_wheeledfridge.cpp.obj
+src/Test_wheeled.obj: src/Test_wheeled.cpp.obj
 
-.PHONY : src/Test_wheeledfridge.obj
+.PHONY : src/Test_wheeled.obj
 
 # target to build an object file
-src/Test_wheeledfridge.cpp.obj:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.obj
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/src/Test_wheeledfridge.cpp.obj
-.PHONY : src/Test_wheeledfridge.cpp.obj
+src/Test_wheeled.cpp.obj:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.obj
+.PHONY : src/Test_wheeled.cpp.obj
 
-src/Test_wheeledfridge.i: src/Test_wheeledfridge.cpp.i
+src/Test_wheeled.i: src/Test_wheeled.cpp.i
 
-.PHONY : src/Test_wheeledfridge.i
+.PHONY : src/Test_wheeled.i
 
 # target to preprocess a source file
-src/Test_wheeledfridge.cpp.i:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.i
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/src/Test_wheeledfridge.cpp.i
-.PHONY : src/Test_wheeledfridge.cpp.i
+src/Test_wheeled.cpp.i:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.i
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.i
+.PHONY : src/Test_wheeled.cpp.i
 
-src/Test_wheeledfridge.s: src/Test_wheeledfridge.cpp.s
+src/Test_wheeled.s: src/Test_wheeled.cpp.s
 
-.PHONY : src/Test_wheeledfridge.s
+.PHONY : src/Test_wheeled.s
 
 # target to generate assembly for a file
-src/Test_wheeledfridge.cpp.s:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.s
-	$(MAKE) -f CMakeFiles\Test_wheeledfridge.dir\build.make CMakeFiles/Test_wheeledfridge.dir/src/Test_wheeledfridge.cpp.s
-.PHONY : src/Test_wheeledfridge.cpp.s
+src/Test_wheeled.cpp.s:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.s
+	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.s
+.PHONY : src/Test_wheeled.cpp.s
 
 src/doorstatusext.obj: src/doorstatusext.cpp.obj
 
@@ -384,32 +357,32 @@ src/fridge.cpp.s:
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.s
 .PHONY : src/fridge.cpp.s
 
-src/wheeledfridge.obj: src/wheeledfridge.cpp.obj
+src/wheeled.obj: src/wheeled.cpp.obj
 
-.PHONY : src/wheeledfridge.obj
+.PHONY : src/wheeled.obj
 
 # target to build an object file
-src/wheeledfridge.cpp.obj:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/wheeledfridge.cpp.obj
-.PHONY : src/wheeledfridge.cpp.obj
+src/wheeled.cpp.obj:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/wheeled.cpp.obj
+.PHONY : src/wheeled.cpp.obj
 
-src/wheeledfridge.i: src/wheeledfridge.cpp.i
+src/wheeled.i: src/wheeled.cpp.i
 
-.PHONY : src/wheeledfridge.i
+.PHONY : src/wheeled.i
 
 # target to preprocess a source file
-src/wheeledfridge.cpp.i:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/wheeledfridge.cpp.i
-.PHONY : src/wheeledfridge.cpp.i
+src/wheeled.cpp.i:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/wheeled.cpp.i
+.PHONY : src/wheeled.cpp.i
 
-src/wheeledfridge.s: src/wheeledfridge.cpp.s
+src/wheeled.s: src/wheeled.cpp.s
 
-.PHONY : src/wheeledfridge.s
+.PHONY : src/wheeled.s
 
 # target to generate assembly for a file
-src/wheeledfridge.cpp.s:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/wheeledfridge.cpp.s
-.PHONY : src/wheeledfridge.cpp.s
+src/wheeled.cpp.s:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/wheeled.cpp.s
+.PHONY : src/wheeled.cpp.s
 
 # Help Target
 help:
@@ -420,13 +393,10 @@ help:
 	@echo ... gtest
 	@echo ... sources
 	@echo ... Test_fridge
+	@echo ... Test_wheeled
 	@echo ... Test_doorstatus
-	@echo ... rebuild_cache
-	@echo ... Test_wheeledfridge
 	@echo ... edit_cache
-	@echo ... C_/Users/Candy/projects/googletest/googletest/src/gtest-all.obj
-	@echo ... C_/Users/Candy/projects/googletest/googletest/src/gtest-all.i
-	@echo ... C_/Users/Candy/projects/googletest/googletest/src/gtest-all.s
+	@echo ... rebuild_cache
 	@echo ... src/Test_Main.obj
 	@echo ... src/Test_Main.i
 	@echo ... src/Test_Main.s
@@ -436,18 +406,18 @@ help:
 	@echo ... src/Test_fridge.obj
 	@echo ... src/Test_fridge.i
 	@echo ... src/Test_fridge.s
-	@echo ... src/Test_wheeledfridge.obj
-	@echo ... src/Test_wheeledfridge.i
-	@echo ... src/Test_wheeledfridge.s
+	@echo ... src/Test_wheeled.obj
+	@echo ... src/Test_wheeled.i
+	@echo ... src/Test_wheeled.s
 	@echo ... src/doorstatusext.obj
 	@echo ... src/doorstatusext.i
 	@echo ... src/doorstatusext.s
 	@echo ... src/fridge.obj
 	@echo ... src/fridge.i
 	@echo ... src/fridge.s
-	@echo ... src/wheeledfridge.obj
-	@echo ... src/wheeledfridge.i
-	@echo ... src/wheeledfridge.s
+	@echo ... src/wheeled.obj
+	@echo ... src/wheeled.i
+	@echo ... src/wheeled.s
 .PHONY : help
 
 

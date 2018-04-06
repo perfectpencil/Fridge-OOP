@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/Test_Main.cpp.o"
   "/mnt/c/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o"
   "/mnt/c/Users/Candy/projects/Fridge/src/Test_fridge.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/Test_fridge.cpp.o"
-  "/mnt/c/Users/Candy/projects/Fridge/src/Test_wheeledfridge.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/Test_wheeledfridge.cpp.o"
+  "/mnt/c/Users/Candy/projects/Fridge/src/Test_wheeled.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/Test_wheeled.cpp.o"
   "/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/doorstatusext.cpp.o"
   "/mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/fridge.cpp.o"
-  "/mnt/c/Users/Candy/projects/Fridge/src/wheeledfridge.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/wheeledfridge.cpp.o"
+  "/mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp" "/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/sources.dir/src/wheeled.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

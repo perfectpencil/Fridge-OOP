@@ -1,5 +1,5 @@
 /mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/Test_wheeledfridge.dir
+/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/Test_wheeled.dir
 /mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/gtest.dir
 /mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles/Test_fridge.dir

@@ -1,13 +1,17 @@
-//
-// Created by Candy on 3/17/2018.
-//
-
-#include "doorstatusext.h"
 #include <iostream>
+#include "doorstatus.h"
 
-using namespace std;
+namespace fridge1 {
+    doorstatus::doorstatus() : opened(false) {
+        std::cout << "door closed" << ((void*) this) << std::endl;
+    }
 
-namespace fridge {
+    doorstatus::~doorstatus() {}
+    void doorstatus::open() { opened = true; }
+    void doorstatus::closed() { opened = false; }
+    bool doorstatus::isOpen() const { return opened; }
+
+    /*
     bool doorstatus;
 
     void init() {
@@ -19,7 +23,6 @@ namespace fridge {
             cout << "Door Status must be true or false." << endl;
         }
     }
-
     bool isDoorStatus() {
         return doorstatus;
     }
@@ -29,7 +32,7 @@ namespace fridge {
         doorstatus = doorstatus;
         return doorstatus;
     }
-
+    */
 }
 
 
