@@ -1,1 +1,1 @@
--IC:/Users/Candy/projects/Fridge/include -isystem /mnt/c/Users/Candy/projects/googletest/googletest/include -isystem /mnt/c/Users/Candy/projects/googletest/googletest 
+-IC:/Users/Candy/projects/Fridge/include -isystem c:/users/candy/projects/googletest/googletest/include -isystem c:/users/candy/projects/googletest/googletest 

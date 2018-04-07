@@ -201,6 +201,30 @@ CMakeFiles/sources.dir/src/wheeled.cpp.o.provides: CMakeFiles/sources.dir/src/wh
 CMakeFiles/sources.dir/src/wheeled.cpp.o.provides.build: CMakeFiles/sources.dir/src/wheeled.cpp.o
 
 
+CMakeFiles/sources.dir/src/main.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sources.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/main.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/main.cpp
+
+CMakeFiles/sources.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/main.cpp > CMakeFiles/sources.dir/src/main.cpp.i
+
+CMakeFiles/sources.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/main.cpp -o CMakeFiles/sources.dir/src/main.cpp.s
+
+CMakeFiles/sources.dir/src/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/main.cpp.o.requires
+
+CMakeFiles/sources.dir/src/main.cpp.o.provides: CMakeFiles/sources.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/main.cpp.o.provides
+
+CMakeFiles/sources.dir/src/main.cpp.o.provides.build: CMakeFiles/sources.dir/src/main.cpp.o
+
+
 # Object files for target sources
 sources_OBJECTS = \
 "CMakeFiles/sources.dir/src/doorstatus.cpp.o" \
@@ -208,7 +232,8 @@ sources_OBJECTS = \
 "CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o" \
 "CMakeFiles/sources.dir/src/Test_fridge.cpp.o" \
 "CMakeFiles/sources.dir/src/Test_Main.cpp.o" \
-"CMakeFiles/sources.dir/src/wheeled.cpp.o"
+"CMakeFiles/sources.dir/src/wheeled.cpp.o" \
+"CMakeFiles/sources.dir/src/main.cpp.o"
 
 # External object files for target sources
 sources_EXTERNAL_OBJECTS =
@@ -219,9 +244,10 @@ sources_EXTERNAL_OBJECTS =
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_fridge.cpp.o
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_Main.cpp.o
 ../lib/libsources.a: CMakeFiles/sources.dir/src/wheeled.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/main.cpp.o
 ../lib/libsources.a: CMakeFiles/sources.dir/build.make
 ../lib/libsources.a: CMakeFiles/sources.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../lib/libsources.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../lib/libsources.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/sources.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sources.dir/link.txt --verbose=$(VERBOSE)
 
@@ -236,6 +262,7 @@ CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_fridge.cpp.o.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_Main.cpp.o.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/wheeled.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/sources.dir/requires
 

@@ -61,8 +61,8 @@ ENDFOREACH(item ${ALL_SOURCES})
 #   git clone git@github.com:google/googletest.git
 
 #set(GTEST_DIR $ENV{HOME}/projects/googletest)
-#set(GTEST_DIR c:/users/candy/projects/googletest)
-set(GTEST_DIR /mnt/c/Users/Candy/projects/googletest)
+set(GTEST_DIR c:/users/candy/projects/googletest)
+#set(GTEST_DIR /mnt/c/Users/Candy/projects/googletest)
 
 #
 # these should be set relative to the GTEST_DIR folder
@@ -91,7 +91,7 @@ add_library(gtest STATIC ${GTEST_TEST_DIR}/src/gtest-all.cc)
 #
 # build the static sources library (all regular source files)
 #
-add_library(sources STATIC ${SOURCES})
+add_library(sources STATIC ${SOURCES} src/main.cpp)
 
 target_link_libraries(gtest ${CMAKE_THREAD_LIBS_INIT})
 
@@ -100,6 +100,10 @@ target_link_libraries(gtest ${CMAKE_THREAD_LIBS_INIT})
 #
 add_executable(Test_fridge src/Test_fridge.cpp src/Test_Main.cpp src/fridge.cpp)
 target_link_libraries(Test_fridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+
+#add_executable(main src/main.cpp src/main.cpp src/fridge.cpp)
+#target_link_libraries(main ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+
 
 #add_executable(Test_doorstatus src/Test_doorstatus.cpp src/Test_Main.cpp)
 #target_link_libraries(Test_doorstatus ${CMAKE_THREAD_LIBS_INIT} gtest sources)

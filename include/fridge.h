@@ -15,7 +15,7 @@ namespace fridge1 {
     public:  virtual int FreezerTempOK(int freezertemp);
     public:  virtual int FridgeTempOK(int fridgetemp);
     public:  virtual bool CompressorStateOK(bool compressorstate);
-    public:  virtual int getFridgeTemp() const;
+    public:  virtual int getFridgeTemp();
     public:  virtual int setFridgeTemp(int fridgetemp);
     public:  virtual int getFreezerTemp() const;
     public:  virtual int setFreezerTemp(int freezertemp);

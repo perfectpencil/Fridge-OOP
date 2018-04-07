@@ -1,12 +1,13 @@
 #include "fridge.h"
 #include <iostream>
-#include <stdexcept>
 #include <sstream>
 
 namespace fridge1 {
 
     fridge2::fridge2() {
-
+        int fridgetemp = 0;
+        int freezertemp = 0;
+        bool compressorstate = false;
     }
 
     //void fridge2::init(int fridgetemp, int freezertemp, bool compressorstate) {
@@ -15,9 +16,9 @@ namespace fridge1 {
       //  int freezertemp = 0;
       //  bool compressorstate = false;
     //}
-    int fridgetemp = 0;
-    int freezertemp = 0;
-    bool compressorstate = false;
+    //int fridgetemp = 0;
+    //int freezertemp = 0;
+   // bool compressorstate = false;
 
     int fridge2::FreezerTempOK(int freezertemp) {
         if (freezertemp < -5 || freezertemp > 5) {
@@ -41,7 +42,7 @@ namespace fridge1 {
         }
     }
 
-    int fridge2::getFridgeTemp() const {
+    int fridge2::getFridgeTemp() {
         return fridgetemp;
     }
 

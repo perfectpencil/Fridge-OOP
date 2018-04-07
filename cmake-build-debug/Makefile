@@ -148,6 +148,33 @@ Test_fridge/fast:
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/build
 .PHONY : Test_fridge/fast
 
+C_/Users/Candy/projects/googletest/googletest/src/gtest-all.obj: C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj
+
+.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.obj
+
+# target to build an object file
+C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj:
+	$(MAKE) -f CMakeFiles\gtest.dir\build.make CMakeFiles/gtest.dir/C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj
+.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.obj
+
+C_/Users/Candy/projects/googletest/googletest/src/gtest-all.i: C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
+
+.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.i
+
+# target to preprocess a source file
+C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i:
+	$(MAKE) -f CMakeFiles\gtest.dir\build.make CMakeFiles/gtest.dir/C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
+.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
+
+C_/Users/Candy/projects/googletest/googletest/src/gtest-all.s: C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
+
+.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.s
+
+# target to generate assembly for a file
+C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s:
+	$(MAKE) -f CMakeFiles\gtest.dir\build.make CMakeFiles/gtest.dir/C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
+.PHONY : C_/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
+
 src/Test_Main.obj: src/Test_Main.cpp.obj
 
 .PHONY : src/Test_Main.obj
@@ -292,6 +319,33 @@ src/fridge.cpp.s:
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.s
 .PHONY : src/fridge.cpp.s
 
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/wheeled.obj: src/wheeled.cpp.obj
 
 .PHONY : src/wheeled.obj
@@ -330,6 +384,9 @@ help:
 	@echo ... Test_fridge
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... C_/Users/Candy/projects/googletest/googletest/src/gtest-all.obj
+	@echo ... C_/Users/Candy/projects/googletest/googletest/src/gtest-all.i
+	@echo ... C_/Users/Candy/projects/googletest/googletest/src/gtest-all.s
 	@echo ... src/Test_Main.obj
 	@echo ... src/Test_Main.i
 	@echo ... src/Test_Main.s
@@ -345,6 +402,9 @@ help:
 	@echo ... src/fridge.obj
 	@echo ... src/fridge.i
 	@echo ... src/fridge.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 	@echo ... src/wheeled.obj
 	@echo ... src/wheeled.i
 	@echo ... src/wheeled.s

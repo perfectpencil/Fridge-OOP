@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Candy/projects/Fridge/src/Test_fridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_fridge.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/doorstatus.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/doorstatus.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/fridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/fridge.cpp.obj"
+  "C:/Users/Candy/projects/Fridge/src/main.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/main.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/wheeled.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/wheeled.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -16,8 +17,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/mnt/c/Users/Candy/projects/googletest/googletest/include"
-  "/mnt/c/Users/Candy/projects/googletest/googletest"
+  "c:/users/candy/projects/googletest/googletest/include"
+  "c:/users/candy/projects/googletest/googletest"
   )
 
 # Targets to which this target links.

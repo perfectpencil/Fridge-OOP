@@ -17,6 +17,8 @@ memory
 /mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp
 gtest/gtest.h
 -
+../../googletest/googletest/include/gtest/gtest.h
+/mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/gtest.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp
 gtest/gtest.h
@@ -49,6 +51,14 @@ stdexcept
 -
 sstream
 -
+
+/mnt/c/Users/Candy/projects/Fridge/src/main.cpp
+ostream
+-
+iostream
+-
+fridge.h
+/mnt/c/Users/Candy/projects/Fridge/src/fridge.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp
 iostream

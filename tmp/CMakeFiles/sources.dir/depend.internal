@@ -81,6 +81,9 @@ CMakeFiles/sources.dir/src/doorstatus.cpp.o
 CMakeFiles/sources.dir/src/fridge.cpp.o
  ../include/fridge.h
  /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp
+CMakeFiles/sources.dir/src/main.cpp.o
+ ../include/fridge.h
+ /mnt/c/Users/Candy/projects/Fridge/src/main.cpp
 CMakeFiles/sources.dir/src/wheeled.cpp.o
  ../include/wheeled.h
  /mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp

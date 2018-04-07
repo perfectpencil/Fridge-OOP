@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
 # Target rules for targets named Test_fridge
 
 # Build rule for target.
@@ -137,17 +150,17 @@ sources/fast:
 .PHONY : sources/fast
 
 #=============================================================================
-# Target rules for targets named gtest
+# Target rules for targets named main
 
 # Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-gtest/fast:
-	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.o: mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.o
 
@@ -298,6 +311,7 @@ src/fridge.o: src/fridge.cpp.o
 src/fridge.cpp.o:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.o
 	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fridge.cpp.o
 .PHONY : src/fridge.cpp.o
 
 src/fridge.i: src/fridge.cpp.i
@@ -308,6 +322,7 @@ src/fridge.i: src/fridge.cpp.i
 src/fridge.cpp.i:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.i
 	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fridge.cpp.i
 .PHONY : src/fridge.cpp.i
 
 src/fridge.s: src/fridge.cpp.s
@@ -318,7 +333,38 @@ src/fridge.s: src/fridge.cpp.s
 src/fridge.cpp.s:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.s
 	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fridge.cpp.s
 .PHONY : src/fridge.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/wheeled.o: src/wheeled.cpp.o
 
@@ -354,10 +400,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... gtest"
 	@echo "... Test_fridge"
 	@echo "... sources"
-	@echo "... gtest"
-	@echo "... rebuild_cache"
+	@echo "... main"
 	@echo "... mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.o"
 	@echo "... mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.i"
 	@echo "... mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.s"
@@ -376,6 +423,9 @@ help:
 	@echo "... src/fridge.o"
 	@echo "... src/fridge.i"
 	@echo "... src/fridge.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/wheeled.o"
 	@echo "... src/wheeled.i"
 	@echo "... src/wheeled.s"

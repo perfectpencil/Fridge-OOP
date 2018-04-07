@@ -6,16 +6,19 @@
 using namespace fridge1;
 
 TEST(fridge2,TestEq) {
-//test init
     int testfridgetemp = 0;
+    int fridgetemp;
     //int x = 0;
    //fridge2::Ptr fr(new fridge2());
     //int x = fr->getFridgeTemp();
     //fridge1::fridge2::getFridgeTemp();
     //fr.setFridgeTemp(fridgetemp);
     fridge2 fr;
-    ASSERT_EQ(testfridgetemp, fr.getFridgeTemp());
-    //ASSERT_EQ(fridgetemp, x);
+    fr.getFridgeTemp();
+    //ASSERT_EQ(testfridgetemp, fr->getFridgeTemp());
+    //ASSERT_EQ(testfridgetemp, fr.getFridgeTemp());
+    ASSERT_EQ(testfridgetemp, fridgetemp);
+    // ASSERT_EQ(fridgetemp, x);
     //std::cout << "init fridgetemp " << fridgetemp << " " << x << std::endl;
 
     //int freezertemp = 0;
