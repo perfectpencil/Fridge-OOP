@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include "doorstatus.h"
 
@@ -31,8 +32,8 @@ namespace fridge1 {
         door_statusOK(doorstatus);
         doorstatus = doorstatus;
         return doorstatus;
-    }
-    */
+    }*/
+
 }
 
 

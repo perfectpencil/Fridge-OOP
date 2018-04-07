@@ -59,7 +59,7 @@ ENDFOREACH(item ${ALL_SOURCES})
 #
 #   cd ~/projects
 #   git clone git@github.com:google/googletest.git
-#
+
 #set(GTEST_DIR $ENV{HOME}/projects/googletest)
 #set(GTEST_DIR c:/users/candy/projects/googletest)
 set(GTEST_DIR /mnt/c/Users/Candy/projects/googletest)
@@ -101,9 +101,9 @@ target_link_libraries(gtest ${CMAKE_THREAD_LIBS_INIT})
 add_executable(Test_fridge src/Test_fridge.cpp src/Test_Main.cpp src/fridge.cpp)
 target_link_libraries(Test_fridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 
-add_executable(Test_doorstatus src/Test_doorstatus.cpp src/Test_Main.cpp)
-target_link_libraries(Test_doorstatus ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+#add_executable(Test_doorstatus src/Test_doorstatus.cpp src/Test_Main.cpp)
+#target_link_libraries(Test_doorstatus ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 
-add_executable(Test_wheeled src/Test_wheeled.cpp src/Test_Main.cpp)
-target_link_libraries(Test_wheeled ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+#add_executable(Test_wheeled src/Test_wheeled.cpp src/Test_Main.cpp)
+#target_link_libraries(Test_wheeled ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 

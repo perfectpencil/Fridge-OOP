@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc ..\lib\libsources.a  CMakeFiles/sources.dir/src/Test_Main.cpp.obj CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj CMakeFiles/sources.dir/src/Test_fridge.cpp.obj CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj CMakeFiles/sources.dir/src/doorstatusext.cpp.obj CMakeFiles/sources.dir/src/fridge.cpp.obj CMakeFiles/sources.dir/src/wheeled.cpp.obj
+C:\MinGW\bin\ar.exe qc ..\lib\libsources.a  CMakeFiles/sources.dir/src/Test_Main.cpp.obj CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj CMakeFiles/sources.dir/src/Test_fridge.cpp.obj CMakeFiles/sources.dir/src/doorstatus.cpp.obj CMakeFiles/sources.dir/src/fridge.cpp.obj CMakeFiles/sources.dir/src/wheeled.cpp.obj
 C:\MinGW\bin\ranlib.exe ..\lib\libsources.a

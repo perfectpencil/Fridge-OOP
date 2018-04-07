@@ -102,7 +102,7 @@ clean: CMakeFiles/gtest.dir/clean
 CMakeFiles/sources.dir/all:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/depend
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14,15,16,17,18 "Built target sources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target sources"
 .PHONY : CMakeFiles/sources.dir/all
 
 # Include target in all.
@@ -112,7 +112,7 @@ all: CMakeFiles/sources.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sources.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 7
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sources.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sources.dir/rule
@@ -136,11 +136,11 @@ clean: CMakeFiles/sources.dir/clean
 # Target rules for target CMakeFiles/Test_fridge.dir
 
 # All Build rule for target.
-CMakeFiles/Test_fridge.dir/all: CMakeFiles/gtest.dir/all
 CMakeFiles/Test_fridge.dir/all: CMakeFiles/sources.dir/all
+CMakeFiles/Test_fridge.dir/all: CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/depend
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=4,5,6,7 "Built target Test_fridge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Test_fridge"
 .PHONY : CMakeFiles/Test_fridge.dir/all
 
 # Include target in all.
@@ -150,7 +150,7 @@ all: CMakeFiles/Test_fridge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Test_fridge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 11
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Test_fridge.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Test_fridge.dir/rule
@@ -167,82 +167,6 @@ CMakeFiles/Test_fridge.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Test_fridge.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Test_wheeled.dir
-
-# All Build rule for target.
-CMakeFiles/Test_wheeled.dir/all: CMakeFiles/gtest.dir/all
-CMakeFiles/Test_wheeled.dir/all: CMakeFiles/sources.dir/all
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/depend
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target Test_wheeled"
-.PHONY : CMakeFiles/Test_wheeled.dir/all
-
-# Include target in all.
-all: CMakeFiles/Test_wheeled.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Test_wheeled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 11
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Test_wheeled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Test_wheeled.dir/rule
-
-# Convenience name for target.
-Test_wheeled: CMakeFiles/Test_wheeled.dir/rule
-
-.PHONY : Test_wheeled
-
-# clean rule for target.
-CMakeFiles/Test_wheeled.dir/clean:
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/clean
-.PHONY : CMakeFiles/Test_wheeled.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Test_wheeled.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Test_doorstatus.dir
-
-# All Build rule for target.
-CMakeFiles/Test_doorstatus.dir/all: CMakeFiles/gtest.dir/all
-CMakeFiles/Test_doorstatus.dir/all: CMakeFiles/sources.dir/all
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/depend
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Test_doorstatus"
-.PHONY : CMakeFiles/Test_doorstatus.dir/all
-
-# Include target in all.
-all: CMakeFiles/Test_doorstatus.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Test_doorstatus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 11
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Test_doorstatus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Test_doorstatus.dir/rule
-
-# Convenience name for target.
-Test_doorstatus: CMakeFiles/Test_doorstatus.dir/rule
-
-.PHONY : Test_doorstatus
-
-# clean rule for target.
-CMakeFiles/Test_doorstatus.dir/clean:
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/clean
-.PHONY : CMakeFiles/Test_doorstatus.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Test_doorstatus.dir/clean
 
 .PHONY : clean
 

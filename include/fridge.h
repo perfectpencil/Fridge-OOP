@@ -10,15 +10,16 @@ namespace fridge1 {
     protected: bool compressorstate;
 
     public:  fridge2();
-    public:  virtual void init(int fridgetemp,int freezertemp, bool compressorstate);
-    public:  virtual int FreezerTempOK(int freezertemp)const;
-    public:  virtual int FridgeTempOK(int fridgetemp)const;
+    //public:  virtual void init(int fridgetemp,int freezertemp, bool compressorstate);
+   //public:  virtual void init();
+    public:  virtual int FreezerTempOK(int freezertemp);
+    public:  virtual int FridgeTempOK(int fridgetemp);
     public:  virtual bool CompressorStateOK(bool compressorstate);
-    public:  virtual int getFridgeTemp();
+    public:  virtual int getFridgeTemp() const;
     public:  virtual int setFridgeTemp(int fridgetemp);
-    public:  virtual int getFreezerTemp();
+    public:  virtual int getFreezerTemp() const;
     public:  virtual int setFreezerTemp(int freezertemp);
-    public:  virtual bool getCompressorState()const;
+    public:  virtual bool getCompressorState() const;
     public:  virtual bool setCompressorState(bool compressorstate);
     public:  virtual ~fridge2();
     };

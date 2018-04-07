@@ -9,13 +9,17 @@ namespace fridge1 {
 
     }
 
-    void fridge2::init(int fridgetemp, int freezertemp, bool compressorstate) {
-        fridgetemp = 0;
-        freezertemp = 0;
-        compressorstate = false;
-    }
+    //void fridge2::init(int fridgetemp, int freezertemp, bool compressorstate) {
+    //void fridge2::init() {
+       // int fridgetemp = 0;
+      //  int freezertemp = 0;
+      //  bool compressorstate = false;
+    //}
+    int fridgetemp = 0;
+    int freezertemp = 0;
+    bool compressorstate = false;
 
-    int fridge2::FreezerTempOK(int freezertemp) const {
+    int fridge2::FreezerTempOK(int freezertemp) {
         if (freezertemp < -5 || freezertemp > 5) {
             std::ostringstream oss;
             oss << "Freezer Temp must be between -5 and 5" << std::endl;
@@ -23,7 +27,7 @@ namespace fridge1 {
         }
     }
 
-    int fridge2::FridgeTempOK(int fridgetemp) const {
+    int fridge2::FridgeTempOK(int fridgetemp) {
         if (fridgetemp < 35 || fridgetemp > 45) {
             std::ostringstream oss;
             oss << "Fridge Temp must be between 35 and 45" << std::endl;
@@ -37,7 +41,7 @@ namespace fridge1 {
         }
     }
 
-    int fridge2::getFridgeTemp() {
+    int fridge2::getFridgeTemp() const {
         return fridgetemp;
     }
 
@@ -47,7 +51,7 @@ namespace fridge1 {
         return fridgetemp;
     }
 
-    int fridge2::getFreezerTemp() {
+    int fridge2::getFreezerTemp() const {
         return freezertemp;
     }
 
@@ -71,9 +75,3 @@ namespace fridge1 {
 
     }
 }
-
-/*int main(){
-
-    std::cout <<"Hello World" << std::endl;
-}
-*/

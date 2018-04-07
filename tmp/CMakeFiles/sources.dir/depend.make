@@ -25,8 +25,7 @@ CMakeFiles/sources.dir/src/Test_Main.cpp.o: /mnt/c/Users/Candy/projects/googlete
 CMakeFiles/sources.dir/src/Test_Main.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/sources.dir/src/Test_Main.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-type-util.h
 
-CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: ../include/doorstatusext.h
-CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: ../include/fridge.h
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: ../include/doorstatus.h
 CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: ../src/Test_doorstatus.cpp
 CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/gtest-message.h
@@ -76,10 +75,8 @@ CMakeFiles/sources.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/google
 CMakeFiles/sources.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/sources.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-type-util.h
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.o: ../src/Test_wheeled.cpp
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.o: ../include/doorstatusext.h
-CMakeFiles/sources.dir/src/doorstatusext.cpp.o: ../src/doorstatusext.cpp
+CMakeFiles/sources.dir/src/doorstatus.cpp.o: ../include/doorstatus.h
+CMakeFiles/sources.dir/src/doorstatus.cpp.o: ../src/doorstatus.cpp
 
 CMakeFiles/sources.dir/src/fridge.cpp.o: ../include/fridge.h
 CMakeFiles/sources.dir/src/fridge.cpp.o: ../src/fridge.cpp

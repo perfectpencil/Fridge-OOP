@@ -148,32 +148,6 @@ Test_fridge/fast:
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/build
 .PHONY : Test_fridge/fast
 
-#=============================================================================
-# Target rules for targets named Test_wheeled
-
-# Build rule for target.
-Test_wheeled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Test_wheeled
-.PHONY : Test_wheeled
-
-# fast build rule for target.
-Test_wheeled/fast:
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/build
-.PHONY : Test_wheeled/fast
-
-#=============================================================================
-# Target rules for targets named Test_doorstatus
-
-# Build rule for target.
-Test_doorstatus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Test_doorstatus
-.PHONY : Test_doorstatus
-
-# fast build rule for target.
-Test_doorstatus/fast:
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/build
-.PHONY : Test_doorstatus/fast
-
 src/Test_Main.obj: src/Test_Main.cpp.obj
 
 .PHONY : src/Test_Main.obj
@@ -182,8 +156,6 @@ src/Test_Main.obj: src/Test_Main.cpp.obj
 src/Test_Main.cpp.obj:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_Main.cpp.obj
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.obj
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.obj
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.obj
 .PHONY : src/Test_Main.cpp.obj
 
 src/Test_Main.i: src/Test_Main.cpp.i
@@ -194,8 +166,6 @@ src/Test_Main.i: src/Test_Main.cpp.i
 src/Test_Main.cpp.i:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_Main.cpp.i
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.i
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.i
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.i
 .PHONY : src/Test_Main.cpp.i
 
 src/Test_Main.s: src/Test_Main.cpp.s
@@ -206,8 +176,6 @@ src/Test_Main.s: src/Test_Main.cpp.s
 src/Test_Main.cpp.s:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_Main.cpp.s
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.s
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.s
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_Main.cpp.s
 .PHONY : src/Test_Main.cpp.s
 
 src/Test_doorstatus.obj: src/Test_doorstatus.cpp.obj
@@ -217,7 +185,6 @@ src/Test_doorstatus.obj: src/Test_doorstatus.cpp.obj
 # target to build an object file
 src/Test_doorstatus.cpp.obj:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_doorstatus.cpp.obj
 .PHONY : src/Test_doorstatus.cpp.obj
 
 src/Test_doorstatus.i: src/Test_doorstatus.cpp.i
@@ -227,7 +194,6 @@ src/Test_doorstatus.i: src/Test_doorstatus.cpp.i
 # target to preprocess a source file
 src/Test_doorstatus.cpp.i:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.i
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_doorstatus.cpp.i
 .PHONY : src/Test_doorstatus.cpp.i
 
 src/Test_doorstatus.s: src/Test_doorstatus.cpp.s
@@ -237,7 +203,6 @@ src/Test_doorstatus.s: src/Test_doorstatus.cpp.s
 # target to generate assembly for a file
 src/Test_doorstatus.cpp.s:
 	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.s
-	$(MAKE) -f CMakeFiles\Test_doorstatus.dir\build.make CMakeFiles/Test_doorstatus.dir/src/Test_doorstatus.cpp.s
 .PHONY : src/Test_doorstatus.cpp.s
 
 src/Test_fridge.obj: src/Test_fridge.cpp.obj
@@ -270,62 +235,32 @@ src/Test_fridge.cpp.s:
 	$(MAKE) -f CMakeFiles\Test_fridge.dir\build.make CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.s
 .PHONY : src/Test_fridge.cpp.s
 
-src/Test_wheeled.obj: src/Test_wheeled.cpp.obj
+src/doorstatus.obj: src/doorstatus.cpp.obj
 
-.PHONY : src/Test_wheeled.obj
-
-# target to build an object file
-src/Test_wheeled.cpp.obj:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.obj
-.PHONY : src/Test_wheeled.cpp.obj
-
-src/Test_wheeled.i: src/Test_wheeled.cpp.i
-
-.PHONY : src/Test_wheeled.i
-
-# target to preprocess a source file
-src/Test_wheeled.cpp.i:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.i
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.i
-.PHONY : src/Test_wheeled.cpp.i
-
-src/Test_wheeled.s: src/Test_wheeled.cpp.s
-
-.PHONY : src/Test_wheeled.s
-
-# target to generate assembly for a file
-src/Test_wheeled.cpp.s:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.s
-	$(MAKE) -f CMakeFiles\Test_wheeled.dir\build.make CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.s
-.PHONY : src/Test_wheeled.cpp.s
-
-src/doorstatusext.obj: src/doorstatusext.cpp.obj
-
-.PHONY : src/doorstatusext.obj
+.PHONY : src/doorstatus.obj
 
 # target to build an object file
-src/doorstatusext.cpp.obj:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatusext.cpp.obj
-.PHONY : src/doorstatusext.cpp.obj
+src/doorstatus.cpp.obj:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatus.cpp.obj
+.PHONY : src/doorstatus.cpp.obj
 
-src/doorstatusext.i: src/doorstatusext.cpp.i
+src/doorstatus.i: src/doorstatus.cpp.i
 
-.PHONY : src/doorstatusext.i
+.PHONY : src/doorstatus.i
 
 # target to preprocess a source file
-src/doorstatusext.cpp.i:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatusext.cpp.i
-.PHONY : src/doorstatusext.cpp.i
+src/doorstatus.cpp.i:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatus.cpp.i
+.PHONY : src/doorstatus.cpp.i
 
-src/doorstatusext.s: src/doorstatusext.cpp.s
+src/doorstatus.s: src/doorstatus.cpp.s
 
-.PHONY : src/doorstatusext.s
+.PHONY : src/doorstatus.s
 
 # target to generate assembly for a file
-src/doorstatusext.cpp.s:
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatusext.cpp.s
-.PHONY : src/doorstatusext.cpp.s
+src/doorstatus.cpp.s:
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatus.cpp.s
+.PHONY : src/doorstatus.cpp.s
 
 src/fridge.obj: src/fridge.cpp.obj
 
@@ -393,8 +328,6 @@ help:
 	@echo ... gtest
 	@echo ... sources
 	@echo ... Test_fridge
-	@echo ... Test_wheeled
-	@echo ... Test_doorstatus
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... src/Test_Main.obj
@@ -406,12 +339,9 @@ help:
 	@echo ... src/Test_fridge.obj
 	@echo ... src/Test_fridge.i
 	@echo ... src/Test_fridge.s
-	@echo ... src/Test_wheeled.obj
-	@echo ... src/Test_wheeled.i
-	@echo ... src/Test_wheeled.s
-	@echo ... src/doorstatusext.obj
-	@echo ... src/doorstatusext.i
-	@echo ... src/doorstatusext.s
+	@echo ... src/doorstatus.obj
+	@echo ... src/doorstatus.i
+	@echo ... src/doorstatus.s
 	@echo ... src/fridge.obj
 	@echo ... src/fridge.i
 	@echo ... src/fridge.s

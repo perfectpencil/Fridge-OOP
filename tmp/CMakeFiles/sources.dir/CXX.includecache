@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/doorstatusext.h
+../include/doorstatus.h
 
 ../include/fridge.h
 memory
@@ -23,10 +23,8 @@ gtest/gtest.h
 /mnt/c/Users/Candy/projects/Fridge/src/gtest/gtest.h
 stdexcept
 -
-doorstatusext.h
-/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.h
-fridge.h
-/mnt/c/Users/Candy/projects/Fridge/src/fridge.h
+doorstatus.h
+/mnt/c/Users/Candy/projects/Fridge/src/doorstatus.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/Test_fridge.cpp
 gtest/gtest.h
@@ -36,13 +34,11 @@ stdexcept
 fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
 
-/mnt/c/Users/Candy/projects/Fridge/src/Test_wheeled.cpp
-
-/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.cpp
+/mnt/c/Users/Candy/projects/Fridge/src/doorstatus.cpp
 iostream
 -
-doorstatusext.h
-/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.h
+doorstatus.h
+/mnt/c/Users/Candy/projects/Fridge/src/doorstatus.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp
 fridge.h

@@ -59,6 +59,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/gtest.dir/DependInfo.cmake"
   "CMakeFiles/sources.dir/DependInfo.cmake"
   "CMakeFiles/Test_fridge.dir/DependInfo.cmake"
-  "CMakeFiles/Test_wheeled.dir/DependInfo.cmake"
-  "CMakeFiles/Test_doorstatus.dir/DependInfo.cmake"
   )

@@ -131,60 +131,35 @@ CMakeFiles/sources.dir/src/Test_fridge.cpp.obj.provides: CMakeFiles/sources.dir/
 CMakeFiles/sources.dir/src/Test_fridge.cpp.obj.provides.build: CMakeFiles/sources.dir/src/Test_fridge.cpp.obj
 
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj: CMakeFiles/sources.dir/flags.make
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj: CMakeFiles/sources.dir/includes_CXX.rsp
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj: ../src/Test_wheeled.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sources.dir\src\Test_wheeled.cpp.obj -c C:\Users\Candy\projects\Fridge\src\Test_wheeled.cpp
+CMakeFiles/sources.dir/src/doorstatus.cpp.obj: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/doorstatus.cpp.obj: CMakeFiles/sources.dir/includes_CXX.rsp
+CMakeFiles/sources.dir/src/doorstatus.cpp.obj: ../src/doorstatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sources.dir/src/doorstatus.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sources.dir\src\doorstatus.cpp.obj -c C:\Users\Candy\projects\Fridge\src\doorstatus.cpp
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/Test_wheeled.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Candy\projects\Fridge\src\Test_wheeled.cpp > CMakeFiles\sources.dir\src\Test_wheeled.cpp.i
+CMakeFiles/sources.dir/src/doorstatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/doorstatus.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Candy\projects\Fridge\src\doorstatus.cpp > CMakeFiles\sources.dir\src\doorstatus.cpp.i
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/Test_wheeled.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Candy\projects\Fridge\src\Test_wheeled.cpp -o CMakeFiles\sources.dir\src\Test_wheeled.cpp.s
+CMakeFiles/sources.dir/src/doorstatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/doorstatus.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Candy\projects\Fridge\src\doorstatus.cpp -o CMakeFiles\sources.dir\src\doorstatus.cpp.s
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.requires:
+CMakeFiles/sources.dir/src/doorstatus.cpp.obj.requires:
 
-.PHONY : CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.requires
+.PHONY : CMakeFiles/sources.dir/src/doorstatus.cpp.obj.requires
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.provides: CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.provides.build
-.PHONY : CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.provides
+CMakeFiles/sources.dir/src/doorstatus.cpp.obj.provides: CMakeFiles/sources.dir/src/doorstatus.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatus.cpp.obj.provides.build
+.PHONY : CMakeFiles/sources.dir/src/doorstatus.cpp.obj.provides
 
-CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.provides.build: CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj
-
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.obj: CMakeFiles/sources.dir/flags.make
-CMakeFiles/sources.dir/src/doorstatusext.cpp.obj: CMakeFiles/sources.dir/includes_CXX.rsp
-CMakeFiles/sources.dir/src/doorstatusext.cpp.obj: ../src/doorstatusext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sources.dir/src/doorstatusext.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sources.dir\src\doorstatusext.cpp.obj -c C:\Users\Candy\projects\Fridge\src\doorstatusext.cpp
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/doorstatusext.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Candy\projects\Fridge\src\doorstatusext.cpp > CMakeFiles\sources.dir\src\doorstatusext.cpp.i
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/doorstatusext.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Candy\projects\Fridge\src\doorstatusext.cpp -o CMakeFiles\sources.dir\src\doorstatusext.cpp.s
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.requires:
-
-.PHONY : CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.requires
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.provides: CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\sources.dir\build.make CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.provides.build
-.PHONY : CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.provides
-
-CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.provides.build: CMakeFiles/sources.dir/src/doorstatusext.cpp.obj
+CMakeFiles/sources.dir/src/doorstatus.cpp.obj.provides.build: CMakeFiles/sources.dir/src/doorstatus.cpp.obj
 
 
 CMakeFiles/sources.dir/src/fridge.cpp.obj: CMakeFiles/sources.dir/flags.make
 CMakeFiles/sources.dir/src/fridge.cpp.obj: CMakeFiles/sources.dir/includes_CXX.rsp
 CMakeFiles/sources.dir/src/fridge.cpp.obj: ../src/fridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sources.dir/src/fridge.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sources.dir/src/fridge.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sources.dir\src\fridge.cpp.obj -c C:\Users\Candy\projects\Fridge\src\fridge.cpp
 
 CMakeFiles/sources.dir/src/fridge.cpp.i: cmake_force
@@ -209,7 +184,7 @@ CMakeFiles/sources.dir/src/fridge.cpp.obj.provides.build: CMakeFiles/sources.dir
 CMakeFiles/sources.dir/src/wheeled.cpp.obj: CMakeFiles/sources.dir/flags.make
 CMakeFiles/sources.dir/src/wheeled.cpp.obj: CMakeFiles/sources.dir/includes_CXX.rsp
 CMakeFiles/sources.dir/src/wheeled.cpp.obj: ../src/wheeled.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sources.dir/src/wheeled.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sources.dir/src/wheeled.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\sources.dir\src\wheeled.cpp.obj -c C:\Users\Candy\projects\Fridge\src\wheeled.cpp
 
 CMakeFiles/sources.dir/src/wheeled.cpp.i: cmake_force
@@ -236,8 +211,7 @@ sources_OBJECTS = \
 "CMakeFiles/sources.dir/src/Test_Main.cpp.obj" \
 "CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj" \
 "CMakeFiles/sources.dir/src/Test_fridge.cpp.obj" \
-"CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj" \
-"CMakeFiles/sources.dir/src/doorstatusext.cpp.obj" \
+"CMakeFiles/sources.dir/src/doorstatus.cpp.obj" \
 "CMakeFiles/sources.dir/src/fridge.cpp.obj" \
 "CMakeFiles/sources.dir/src/wheeled.cpp.obj"
 
@@ -247,13 +221,12 @@ sources_EXTERNAL_OBJECTS =
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_Main.cpp.obj
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj
 ../lib/libsources.a: CMakeFiles/sources.dir/src/Test_fridge.cpp.obj
-../lib/libsources.a: CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj
-../lib/libsources.a: CMakeFiles/sources.dir/src/doorstatusext.cpp.obj
+../lib/libsources.a: CMakeFiles/sources.dir/src/doorstatus.cpp.obj
 ../lib/libsources.a: CMakeFiles/sources.dir/src/fridge.cpp.obj
 ../lib/libsources.a: CMakeFiles/sources.dir/src/wheeled.cpp.obj
 ../lib/libsources.a: CMakeFiles/sources.dir/build.make
 ../lib/libsources.a: CMakeFiles/sources.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ..\lib\libsources.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Candy\projects\Fridge\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ..\lib\libsources.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\sources.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sources.dir\link.txt --verbose=$(VERBOSE)
 
@@ -265,8 +238,7 @@ CMakeFiles/sources.dir/build: ../lib/libsources.a
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_Main.cpp.obj.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_fridge.cpp.obj.requires
-CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj.requires
-CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/doorstatusext.cpp.obj.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/doorstatus.cpp.obj.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/fridge.cpp.obj.requires
 CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/wheeled.cpp.obj.requires
 

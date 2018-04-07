@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/Test_wheeled.dir/src/Test_wheeled.cpp.o CMakeFiles/Test_wheeled.dir/src/Test_Main.cpp.o  -o ../bin/Test_wheeled -lpthread ../lib/libgtest.a ../lib/libsources.a -lpthread 
+/usr/bin/c++        -o ../bin/Test_wheeled -lpthread ../lib/libgtest.a ../lib/libsources.a -lpthread 

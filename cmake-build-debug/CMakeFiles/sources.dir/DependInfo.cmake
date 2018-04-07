@@ -7,8 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Candy/projects/Fridge/src/Test_Main.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_Main.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/Test_fridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_fridge.cpp.obj"
-  "C:/Users/Candy/projects/Fridge/src/Test_wheeled.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_wheeled.cpp.obj"
-  "C:/Users/Candy/projects/Fridge/src/doorstatusext.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/doorstatusext.cpp.obj"
+  "C:/Users/Candy/projects/Fridge/src/doorstatus.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/doorstatus.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/fridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/fridge.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/wheeled.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/wheeled.cpp.obj"
   )

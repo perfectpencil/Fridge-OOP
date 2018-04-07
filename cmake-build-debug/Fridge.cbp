@@ -161,102 +161,6 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Test_wheeled">
-				<Option output="C:/Users/Candy/projects/Fridge/bin/Test_wheeled.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_wheeled"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test_wheeled/fast">
-				<Option output="C:/Users/Candy/projects/Fridge/bin/Test_wheeled.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_wheeled/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test_doorstatus">
-				<Option output="C:/Users/Candy/projects/Fridge/bin/Test_doorstatus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_doorstatus"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Test_doorstatus/fast">
-				<Option output="C:/Users/Candy/projects/Fridge/bin/Test_doorstatus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest/include"/>
-					<Add directory="/mnt/c/Users/Candy/projects/googletest/googletest"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_doorstatus/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Candy/projects/Fridge/cmake-build-debug"/>
 				<Option type="4"/>
@@ -281,22 +185,15 @@
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_Main.cpp">
 			<Option target="sources"/>
 			<Option target="Test_fridge"/>
-			<Option target="Test_wheeled"/>
-			<Option target="Test_doorstatus"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp">
 			<Option target="sources"/>
-			<Option target="Test_doorstatus"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_fridge.cpp">
 			<Option target="sources"/>
 			<Option target="Test_fridge"/>
 		</Unit>
-		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_wheeled.cpp">
-			<Option target="sources"/>
-			<Option target="Test_wheeled"/>
-		</Unit>
-		<Unit filename="C:/Users/Candy/projects/Fridge/src/doorstatusext.cpp">
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/doorstatus.cpp">
 			<Option target="sources"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/fridge.cpp">

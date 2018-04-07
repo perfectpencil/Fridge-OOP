@@ -50,7 +50,6 @@ CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/go
 CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.o: /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/internal/gtest-type-util.h
 
-CMakeFiles/Test_fridge.dir/src/fridge.cpp.o: ../include/doorstatusext.h
 CMakeFiles/Test_fridge.dir/src/fridge.cpp.o: ../include/fridge.h
 CMakeFiles/Test_fridge.dir/src/fridge.cpp.o: ../src/fridge.cpp
 

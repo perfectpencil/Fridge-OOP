@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/doorstatusext.h
-fridge.h
-../include/fridge.h
-
 ../include/fridge.h
 memory
 -
@@ -29,8 +25,6 @@ fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp
 fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
-doorstatusext.h
-/mnt/c/Users/Candy/projects/Fridge/src/doorstatusext.h
 iostream
 -
 stdexcept
