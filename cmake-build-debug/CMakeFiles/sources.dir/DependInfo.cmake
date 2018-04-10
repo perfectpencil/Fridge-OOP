@@ -4,13 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Candy/projects/Fridge/src/SolarPanel.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/SolarPanel.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/Test_Main.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_Main.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_doorstatus.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/Test_fridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/Test_fridge.cpp.obj"
+  "C:/Users/Candy/projects/Fridge/src/WheelLocked.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/WheelLocked.cpp.obj"
+  "C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/doorstatus.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/doorstatus.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/fridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/fridge.cpp.obj"
   "C:/Users/Candy/projects/Fridge/src/main.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/main.cpp.obj"
-  "C:/Users/Candy/projects/Fridge/src/wheeled.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/wheeled.cpp.obj"
+  "C:/Users/Candy/projects/Fridge/src/wheeledfridge.cpp" "C:/Users/Candy/projects/Fridge/cmake-build-debug/CMakeFiles/sources.dir/src/wheeledfridge.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

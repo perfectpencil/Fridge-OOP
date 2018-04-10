@@ -6,13 +6,33 @@
 
 #IncludeRegexTransform: 
 
+../include/SolarPanel.h
+
+../include/WheelLocked.h
+
+../include/WheelLockedSolarPanel.h
+WheelLocked.h
+../include/WheelLocked.h
+SolarPanel.h
+../include/SolarPanel.h
+
 ../include/doorstatus.h
 
 ../include/fridge.h
 memory
 -
 
-../include/wheeled.h
+../include/wheeledfridge.h
+fridge.h
+../include/fridge.h
+WheelLocked.h
+../include/WheelLocked.h
+
+C:/Users/Candy/projects/Fridge/src/SolarPanel.cpp
+SolarPanel.h
+C:/Users/Candy/projects/Fridge/src/SolarPanel.h
+iostream
+-
 
 C:/Users/Candy/projects/Fridge/src/Test_Main.cpp
 gtest/gtest.h
@@ -31,8 +51,24 @@ gtest/gtest.h
 -
 stdexcept
 -
+iostream
+-
+sstream
+-
 fridge.h
 C:/Users/Candy/projects/Fridge/src/fridge.h
+
+C:/Users/Candy/projects/Fridge/src/WheelLocked.cpp
+iostream
+-
+WheelLocked.h
+C:/Users/Candy/projects/Fridge/src/WheelLocked.h
+
+C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp
+iostream
+-
+WheelLockedSolarPanel.h
+C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.h
 
 C:/Users/Candy/projects/Fridge/src/doorstatus.cpp
 iostream
@@ -56,11 +92,11 @@ iostream
 fridge.h
 C:/Users/Candy/projects/Fridge/src/fridge.h
 
-C:/Users/Candy/projects/Fridge/src/wheeled.cpp
+C:/Users/Candy/projects/Fridge/src/wheeledfridge.cpp
 iostream
 -
-wheeled.h
-C:/Users/Candy/projects/Fridge/src/wheeled.h
+wheeledfridge.h
+C:/Users/Candy/projects/Fridge/src/wheeledfridge.h
 
 c:/users/candy/projects/googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

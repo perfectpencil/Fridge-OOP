@@ -182,6 +182,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Candy/projects/Fridge/include/SolarPanel.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/include/WheelLockedSolarPanel.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/include/wheeledfridge.h">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/SolarPanel.cpp">
+			<Option target="sources"/>
+		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_Main.cpp">
 			<Option target="sources"/>
 			<Option target="Test_fridge"/>
@@ -193,6 +205,12 @@
 			<Option target="sources"/>
 			<Option target="Test_fridge"/>
 		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/WheelLocked.cpp">
+			<Option target="sources"/>
+		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp">
+			<Option target="sources"/>
+		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/doorstatus.cpp">
 			<Option target="sources"/>
 		</Unit>
@@ -203,7 +221,7 @@
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/main.cpp">
 			<Option target="sources"/>
 		</Unit>
-		<Unit filename="C:/Users/Candy/projects/Fridge/src/wheeled.cpp">
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/wheeledfridge.cpp">
 			<Option target="sources"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/googletest/googletest/src/gtest-all.cc">

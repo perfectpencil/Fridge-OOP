@@ -1,13 +1,13 @@
 #pragma once
 
 namespace fridge1 {
-    class wheeled {
+    class WheelLocked {
     protected:  bool locked;
-    public:  wheeled ();
+    public:  WheelLocked();
     public:  virtual void lock();
     public:  virtual void unlock();
     public:  virtual bool isLocked() const;
-    public:  virtual ~wheeled();
+    public:  virtual ~WheelLocked();
     };
 }
 

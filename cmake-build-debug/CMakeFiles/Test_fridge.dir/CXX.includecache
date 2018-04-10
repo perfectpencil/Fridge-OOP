@@ -19,6 +19,10 @@ gtest/gtest.h
 -
 stdexcept
 -
+iostream
+-
+sstream
+-
 fridge.h
 C:/Users/Candy/projects/Fridge/src/fridge.h
 

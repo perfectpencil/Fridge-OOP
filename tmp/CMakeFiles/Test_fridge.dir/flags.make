@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Candy/projects/Fridge/include -isystem /mnt/c/Users/Candy/projects/googletest/googletest/include -isystem /mnt/c/Users/Candy/projects/googletest/googletest 
+CXX_INCLUDES = -I/mnt/c/Users/Candy/projects/Fridge/include -isystem /mnt/c/Users/Candy/projects/Fridge/c:/users/candy/projects/googletest/googletest/include -isystem /mnt/c/Users/Candy/projects/Fridge/c:/users/candy/projects/googletest/googletest 
 

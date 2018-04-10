@@ -12,9 +12,9 @@ namespace fridge1 {
     public:  fridge2();
     //public:  virtual void init(int fridgetemp,int freezertemp, bool compressorstate);
    //public:  virtual void init();
-    public:  virtual int FreezerTempOK(int freezertemp);
-    public:  virtual int FridgeTempOK(int fridgetemp);
-    public:  virtual bool CompressorStateOK(bool compressorstate);
+    public:  virtual void FreezerTempOK(int freezertemp);
+    public:  virtual void FridgeTempOK(int fridgetemp);
+    public:  virtual void CompressorStateOK(bool compressorstate);
     public:  virtual int getFridgeTemp();
     public:  virtual int setFridgeTemp(int fridgetemp);
     public:  virtual int getFreezerTemp() const;

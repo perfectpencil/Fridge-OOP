@@ -5,22 +5,12 @@
 namespace fridge1 {
 
     fridge2::fridge2() {
-        int fridgetemp = 0;
-        int freezertemp = 0;
-        bool compressorstate = false;
+        fridgetemp = 0;
+        freezertemp = 0;
+        compressorstate = false;
     }
 
-    //void fridge2::init(int fridgetemp, int freezertemp, bool compressorstate) {
-    //void fridge2::init() {
-       // int fridgetemp = 0;
-      //  int freezertemp = 0;
-      //  bool compressorstate = false;
-    //}
-    //int fridgetemp = 0;
-    //int freezertemp = 0;
-   // bool compressorstate = false;
-
-    int fridge2::FreezerTempOK(int freezertemp) {
+   void fridge2::FreezerTempOK(int freezertemp) {
         if (freezertemp < -5 || freezertemp > 5) {
             std::ostringstream oss;
             oss << "Freezer Temp must be between -5 and 5" << std::endl;
@@ -28,7 +18,7 @@ namespace fridge1 {
         }
     }
 
-    int fridge2::FridgeTempOK(int fridgetemp) {
+    void fridge2::FridgeTempOK(int fridgetemp) {
         if (fridgetemp < 35 || fridgetemp > 45) {
             std::ostringstream oss;
             oss << "Fridge Temp must be between 35 and 45" << std::endl;
@@ -36,7 +26,7 @@ namespace fridge1 {
         }
     }
 
-    bool fridge2::CompressorStateOK(bool compressorstate) {
+    void fridge2::CompressorStateOK(bool compressorstate) {
         if (compressorstate != true || compressorstate != false) {
             std::cout << "Compressor State must be True or False" << std::endl;
         }
