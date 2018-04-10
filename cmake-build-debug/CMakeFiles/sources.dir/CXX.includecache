@@ -10,11 +10,23 @@
 
 ../include/WheelLocked.h
 
+../include/WheelLockedFridge.h
+fridge.h
+../include/fridge.h
+WheelLocked.h
+../include/WheelLocked.h
+
 ../include/WheelLockedSolarPanel.h
 WheelLocked.h
 ../include/WheelLocked.h
 SolarPanel.h
 ../include/SolarPanel.h
+
+../include/WheelLockedSolarPanelFridge.h
+WheelLockedFridge.h
+../include/WheelLockedFridge.h
+WheelLockedSolarPanel.h
+../include/WheelLockedSolarPanel.h
 
 ../include/doorstatus.h
 
@@ -22,17 +34,29 @@ SolarPanel.h
 memory
 -
 
-../include/wheeledfridge.h
-fridge.h
-../include/fridge.h
-WheelLocked.h
-../include/WheelLocked.h
-
 C:/Users/Candy/projects/Fridge/src/SolarPanel.cpp
 SolarPanel.h
 C:/Users/Candy/projects/Fridge/src/SolarPanel.h
 iostream
 -
+
+C:/Users/Candy/projects/Fridge/src/TestWheelLockedFridge.cpp
+gtest/gtest.h
+-
+stdexcept
+-
+WheelLockedFridge.h
+C:/Users/Candy/projects/Fridge/src/WheelLockedFridge.h
+
+C:/Users/Candy/projects/Fridge/src/TestWheelLockedSolarPanelFridge.cpp
+gtest/gtest.h
+-
+stdexcept
+-
+iostream
+-
+WheelLockedSolarPanelFridge.h
+C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanelFridge.h
 
 C:/Users/Candy/projects/Fridge/src/Test_Main.cpp
 gtest/gtest.h
@@ -64,11 +88,23 @@ iostream
 WheelLocked.h
 C:/Users/Candy/projects/Fridge/src/WheelLocked.h
 
+C:/Users/Candy/projects/Fridge/src/WheelLockedFridge.cpp
+iostream
+-
+WheelLockedFridge.h
+C:/Users/Candy/projects/Fridge/src/WheelLockedFridge.h
+
 C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp
 iostream
 -
 WheelLockedSolarPanel.h
 C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.h
+
+C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanelFridge.cpp
+iostream
+-
+WheelLockedSolarPanelFridge.h
+C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanelFridge.h
 
 C:/Users/Candy/projects/Fridge/src/doorstatus.cpp
 iostream
@@ -91,12 +127,6 @@ iostream
 -
 fridge.h
 C:/Users/Candy/projects/Fridge/src/fridge.h
-
-C:/Users/Candy/projects/Fridge/src/wheeledfridge.cpp
-iostream
--
-wheeledfridge.h
-C:/Users/Candy/projects/Fridge/src/wheeledfridge.h
 
 c:/users/candy/projects/googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

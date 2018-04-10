@@ -57,7 +57,320 @@ include CMakeFiles/sources.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sources.dir/flags.make
 
-CMakeFiles/sources.dir/requires:
+CMakeFiles/sources.dir/src/doorstatus.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/doorstatus.cpp.o: ../src/doorstatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sources.dir/src/doorstatus.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/doorstatus.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/doorstatus.cpp
+
+CMakeFiles/sources.dir/src/doorstatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/doorstatus.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/doorstatus.cpp > CMakeFiles/sources.dir/src/doorstatus.cpp.i
+
+CMakeFiles/sources.dir/src/doorstatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/doorstatus.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/doorstatus.cpp -o CMakeFiles/sources.dir/src/doorstatus.cpp.s
+
+CMakeFiles/sources.dir/src/doorstatus.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/doorstatus.cpp.o.requires
+
+CMakeFiles/sources.dir/src/doorstatus.cpp.o.provides: CMakeFiles/sources.dir/src/doorstatus.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/doorstatus.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/doorstatus.cpp.o.provides
+
+CMakeFiles/sources.dir/src/doorstatus.cpp.o.provides.build: CMakeFiles/sources.dir/src/doorstatus.cpp.o
+
+
+CMakeFiles/sources.dir/src/fridge.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/fridge.cpp.o: ../src/fridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sources.dir/src/fridge.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/fridge.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp
+
+CMakeFiles/sources.dir/src/fridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/fridge.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp > CMakeFiles/sources.dir/src/fridge.cpp.i
+
+CMakeFiles/sources.dir/src/fridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/fridge.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/fridge.cpp -o CMakeFiles/sources.dir/src/fridge.cpp.s
+
+CMakeFiles/sources.dir/src/fridge.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/fridge.cpp.o.requires
+
+CMakeFiles/sources.dir/src/fridge.cpp.o.provides: CMakeFiles/sources.dir/src/fridge.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/fridge.cpp.o.provides
+
+CMakeFiles/sources.dir/src/fridge.cpp.o.provides.build: CMakeFiles/sources.dir/src/fridge.cpp.o
+
+
+CMakeFiles/sources.dir/src/SolarPanel.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/SolarPanel.cpp.o: ../src/SolarPanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sources.dir/src/SolarPanel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/SolarPanel.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/SolarPanel.cpp
+
+CMakeFiles/sources.dir/src/SolarPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/SolarPanel.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/SolarPanel.cpp > CMakeFiles/sources.dir/src/SolarPanel.cpp.i
+
+CMakeFiles/sources.dir/src/SolarPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/SolarPanel.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/SolarPanel.cpp -o CMakeFiles/sources.dir/src/SolarPanel.cpp.s
+
+CMakeFiles/sources.dir/src/SolarPanel.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/SolarPanel.cpp.o.requires
+
+CMakeFiles/sources.dir/src/SolarPanel.cpp.o.provides: CMakeFiles/sources.dir/src/SolarPanel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/SolarPanel.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/SolarPanel.cpp.o.provides
+
+CMakeFiles/sources.dir/src/SolarPanel.cpp.o.provides.build: CMakeFiles/sources.dir/src/SolarPanel.cpp.o
+
+
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o: ../src/TestWheelLockedFridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/TestWheelLockedFridge.cpp
+
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/TestWheelLockedFridge.cpp > CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.i
+
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/TestWheelLockedFridge.cpp -o CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.s
+
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.requires
+
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.provides: CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.provides
+
+CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.provides.build: CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o
+
+
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o: ../src/Test_doorstatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp
+
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/Test_doorstatus.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp > CMakeFiles/sources.dir/src/Test_doorstatus.cpp.i
+
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/Test_doorstatus.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp -o CMakeFiles/sources.dir/src/Test_doorstatus.cpp.s
+
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.requires
+
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.provides: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.provides
+
+CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.provides.build: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o
+
+
+CMakeFiles/sources.dir/src/Test_fridge.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/Test_fridge.cpp.o: ../src/Test_fridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sources.dir/src/Test_fridge.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/Test_fridge.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/Test_fridge.cpp
+
+CMakeFiles/sources.dir/src/Test_fridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/Test_fridge.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/Test_fridge.cpp > CMakeFiles/sources.dir/src/Test_fridge.cpp.i
+
+CMakeFiles/sources.dir/src/Test_fridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/Test_fridge.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/Test_fridge.cpp -o CMakeFiles/sources.dir/src/Test_fridge.cpp.s
+
+CMakeFiles/sources.dir/src/Test_fridge.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/Test_fridge.cpp.o.requires
+
+CMakeFiles/sources.dir/src/Test_fridge.cpp.o.provides: CMakeFiles/sources.dir/src/Test_fridge.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_fridge.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/Test_fridge.cpp.o.provides
+
+CMakeFiles/sources.dir/src/Test_fridge.cpp.o.provides.build: CMakeFiles/sources.dir/src/Test_fridge.cpp.o
+
+
+CMakeFiles/sources.dir/src/Test_Main.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/Test_Main.cpp.o: ../src/Test_Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sources.dir/src/Test_Main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/Test_Main.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp
+
+CMakeFiles/sources.dir/src/Test_Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/Test_Main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp > CMakeFiles/sources.dir/src/Test_Main.cpp.i
+
+CMakeFiles/sources.dir/src/Test_Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/Test_Main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp -o CMakeFiles/sources.dir/src/Test_Main.cpp.s
+
+CMakeFiles/sources.dir/src/Test_Main.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/Test_Main.cpp.o.requires
+
+CMakeFiles/sources.dir/src/Test_Main.cpp.o.provides: CMakeFiles/sources.dir/src/Test_Main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_Main.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/Test_Main.cpp.o.provides
+
+CMakeFiles/sources.dir/src/Test_Main.cpp.o.provides.build: CMakeFiles/sources.dir/src/Test_Main.cpp.o
+
+
+CMakeFiles/sources.dir/src/WheelLocked.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/WheelLocked.cpp.o: ../src/WheelLocked.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sources.dir/src/WheelLocked.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/WheelLocked.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/WheelLocked.cpp
+
+CMakeFiles/sources.dir/src/WheelLocked.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/WheelLocked.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/WheelLocked.cpp > CMakeFiles/sources.dir/src/WheelLocked.cpp.i
+
+CMakeFiles/sources.dir/src/WheelLocked.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/WheelLocked.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/WheelLocked.cpp -o CMakeFiles/sources.dir/src/WheelLocked.cpp.s
+
+CMakeFiles/sources.dir/src/WheelLocked.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/WheelLocked.cpp.o.requires
+
+CMakeFiles/sources.dir/src/WheelLocked.cpp.o.provides: CMakeFiles/sources.dir/src/WheelLocked.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLocked.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/WheelLocked.cpp.o.provides
+
+CMakeFiles/sources.dir/src/WheelLocked.cpp.o.provides.build: CMakeFiles/sources.dir/src/WheelLocked.cpp.o
+
+
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o: ../src/WheelLockedFridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/WheelLockedFridge.cpp
+
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/WheelLockedFridge.cpp > CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.i
+
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/WheelLockedFridge.cpp -o CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.s
+
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.requires
+
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.provides: CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.provides
+
+CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.provides.build: CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o
+
+
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o: ../src/WheelLockedSolarPanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp
+
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp > CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.i
+
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp -o CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.s
+
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.requires
+
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.provides: CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.provides
+
+CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.provides.build: CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o
+
+
+CMakeFiles/sources.dir/src/main.cpp.o: CMakeFiles/sources.dir/flags.make
+CMakeFiles/sources.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sources.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sources.dir/src/main.cpp.o -c /mnt/c/Users/Candy/projects/Fridge/src/main.cpp
+
+CMakeFiles/sources.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sources.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Candy/projects/Fridge/src/main.cpp > CMakeFiles/sources.dir/src/main.cpp.i
+
+CMakeFiles/sources.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sources.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Candy/projects/Fridge/src/main.cpp -o CMakeFiles/sources.dir/src/main.cpp.s
+
+CMakeFiles/sources.dir/src/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/sources.dir/src/main.cpp.o.requires
+
+CMakeFiles/sources.dir/src/main.cpp.o.provides: CMakeFiles/sources.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/sources.dir/src/main.cpp.o.provides
+
+CMakeFiles/sources.dir/src/main.cpp.o.provides.build: CMakeFiles/sources.dir/src/main.cpp.o
+
+
+# Object files for target sources
+sources_OBJECTS = \
+"CMakeFiles/sources.dir/src/doorstatus.cpp.o" \
+"CMakeFiles/sources.dir/src/fridge.cpp.o" \
+"CMakeFiles/sources.dir/src/SolarPanel.cpp.o" \
+"CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o" \
+"CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o" \
+"CMakeFiles/sources.dir/src/Test_fridge.cpp.o" \
+"CMakeFiles/sources.dir/src/Test_Main.cpp.o" \
+"CMakeFiles/sources.dir/src/WheelLocked.cpp.o" \
+"CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o" \
+"CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o" \
+"CMakeFiles/sources.dir/src/main.cpp.o"
+
+# External object files for target sources
+sources_EXTERNAL_OBJECTS =
+
+../lib/libsources.a: CMakeFiles/sources.dir/src/doorstatus.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/fridge.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/SolarPanel.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/Test_fridge.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/Test_Main.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/WheelLocked.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/src/main.cpp.o
+../lib/libsources.a: CMakeFiles/sources.dir/build.make
+../lib/libsources.a: CMakeFiles/sources.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Candy/projects/Fridge/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../lib/libsources.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/sources.dir/cmake_clean_target.cmake
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sources.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/sources.dir/build: ../lib/libsources.a
+
+.PHONY : CMakeFiles/sources.dir/build
+
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/doorstatus.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/fridge.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/SolarPanel.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_fridge.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/Test_Main.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/WheelLocked.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o.requires
+CMakeFiles/sources.dir/requires: CMakeFiles/sources.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/sources.dir/requires
 

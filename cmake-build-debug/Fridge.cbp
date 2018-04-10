@@ -17,6 +17,54 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TestWheelLockedSolarPanelFridge">
+				<Option output="C:/Users/Candy/projects/Fridge/bin/TestWheelLockedSolarPanelFridge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestWheelLockedSolarPanelFridge"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestWheelLockedSolarPanelFridge/fast">
+				<Option output="C:/Users/Candy/projects/Fridge/bin/TestWheelLockedSolarPanelFridge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestWheelLockedSolarPanelFridge/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="gtest">
 				<Option output="C:/Users/Candy/projects/Fridge/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Candy/projects/Fridge/cmake-build-debug"/>
@@ -161,6 +209,54 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TestWheelLockedFridge">
+				<Option output="C:/Users/Candy/projects/Fridge/bin/TestWheelLockedFridge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestWheelLockedFridge"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestWheelLockedFridge/fast">
+				<Option output="C:/Users/Candy/projects/Fridge/bin/TestWheelLockedFridge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Candy/projects/Fridge/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Candy/projects/Fridge/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest/include"/>
+					<Add directory="c:/users/candy/projects/googletest/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestWheelLockedFridge/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Candy/projects/Fridge/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Candy/projects/Fridge/cmake-build-debug"/>
 				<Option type="4"/>
@@ -185,18 +281,31 @@
 		<Unit filename="C:/Users/Candy/projects/Fridge/include/SolarPanel.h">
 			<Option target="gtest"/>
 		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/include/WheelLockedFridge.h">
+			<Option target="gtest"/>
+		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/include/WheelLockedSolarPanel.h">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="C:/Users/Candy/projects/Fridge/include/wheeledfridge.h">
+		<Unit filename="C:/Users/Candy/projects/Fridge/include/WheelLockedSolarPanelFridge.h">
 			<Option target="gtest"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/SolarPanel.cpp">
 			<Option target="sources"/>
 		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/TestWheelLockedFridge.cpp">
+			<Option target="sources"/>
+			<Option target="TestWheelLockedFridge"/>
+		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/TestWheelLockedSolarPanelFridge.cpp">
+			<Option target="TestWheelLockedSolarPanelFridge"/>
+			<Option target="sources"/>
+		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_Main.cpp">
+			<Option target="TestWheelLockedSolarPanelFridge"/>
 			<Option target="sources"/>
 			<Option target="Test_fridge"/>
+			<Option target="TestWheelLockedFridge"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp">
 			<Option target="sources"/>
@@ -208,7 +317,13 @@
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/WheelLocked.cpp">
 			<Option target="sources"/>
 		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/WheelLockedFridge.cpp">
+			<Option target="sources"/>
+		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp">
+			<Option target="sources"/>
+		</Unit>
+		<Unit filename="C:/Users/Candy/projects/Fridge/src/WheelLockedSolarPanelFridge.cpp">
 			<Option target="sources"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/doorstatus.cpp">
@@ -217,11 +332,9 @@
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/fridge.cpp">
 			<Option target="sources"/>
 			<Option target="Test_fridge"/>
+			<Option target="TestWheelLockedFridge"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/Fridge/src/main.cpp">
-			<Option target="sources"/>
-		</Unit>
-		<Unit filename="C:/Users/Candy/projects/Fridge/src/wheeledfridge.cpp">
 			<Option target="sources"/>
 		</Unit>
 		<Unit filename="C:/Users/Candy/projects/googletest/googletest/src/gtest-all.cc">

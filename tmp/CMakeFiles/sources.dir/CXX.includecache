@@ -6,19 +6,45 @@
 
 #IncludeRegexTransform: 
 
+../include/SolarPanel.h
+
+../include/WheelLocked.h
+
+../include/WheelLockedFridge.h
+fridge.h
+../include/fridge.h
+WheelLocked.h
+../include/WheelLocked.h
+
+../include/WheelLockedSolarPanel.h
+WheelLocked.h
+../include/WheelLocked.h
+SolarPanel.h
+../include/SolarPanel.h
+
 ../include/doorstatus.h
 
 ../include/fridge.h
 memory
 -
 
-../include/wheeled.h
+/mnt/c/Users/Candy/projects/Fridge/src/SolarPanel.cpp
+SolarPanel.h
+/mnt/c/Users/Candy/projects/Fridge/src/SolarPanel.h
+iostream
+-
+
+/mnt/c/Users/Candy/projects/Fridge/src/TestWheelLockedFridge.cpp
+gtest/gtest.h
+-
+stdexcept
+-
+WheelLockedFridge.h
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLockedFridge.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/Test_Main.cpp
 gtest/gtest.h
 -
-../../googletest/googletest/include/gtest/gtest.h
-/mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/gtest.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/Test_doorstatus.cpp
 gtest/gtest.h
@@ -33,8 +59,30 @@ gtest/gtest.h
 -
 stdexcept
 -
+iostream
+-
+sstream
+-
 fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
+
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLocked.cpp
+iostream
+-
+WheelLocked.h
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLocked.h
+
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLockedFridge.cpp
+iostream
+-
+WheelLockedFridge.h
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLockedFridge.h
+
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.cpp
+iostream
+-
+WheelLockedSolarPanel.h
+/mnt/c/Users/Candy/projects/Fridge/src/WheelLockedSolarPanel.h
 
 /mnt/c/Users/Candy/projects/Fridge/src/doorstatus.cpp
 iostream
@@ -47,8 +95,6 @@ fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
 iostream
 -
-stdexcept
--
 sstream
 -
 
@@ -59,12 +105,6 @@ iostream
 -
 fridge.h
 /mnt/c/Users/Candy/projects/Fridge/src/fridge.h
-
-/mnt/c/Users/Candy/projects/Fridge/src/wheeled.cpp
-iostream
--
-wheeled.h
-/mnt/c/Users/Candy/projects/Fridge/src/wheeled.h
 
 /mnt/c/Users/Candy/projects/googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

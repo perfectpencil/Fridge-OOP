@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
 # Target rules for targets named Test_fridge
 
 # Build rule for target.
@@ -137,17 +150,101 @@ sources/fast:
 .PHONY : sources/fast
 
 #=============================================================================
-# Target rules for targets named gtest
+# Target rules for targets named TestWheelLockedFridge
 
 # Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
+TestWheelLockedFridge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestWheelLockedFridge
+.PHONY : TestWheelLockedFridge
 
 # fast build rule for target.
-gtest/fast:
-	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
+TestWheelLockedFridge/fast:
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/build
+.PHONY : TestWheelLockedFridge/fast
+
+mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.o: mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.o
+
+.PHONY : mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.o
+
+# target to build an object file
+mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.o:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.o
+.PHONY : mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.o
+
+mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.i: mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
+
+.PHONY : mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.i
+
+# target to preprocess a source file
+mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
+.PHONY : mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.i
+
+mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.s: mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
+
+.PHONY : mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.s
+
+# target to generate assembly for a file
+mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
+.PHONY : mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.cc.s
+
+src/SolarPanel.o: src/SolarPanel.cpp.o
+
+.PHONY : src/SolarPanel.o
+
+# target to build an object file
+src/SolarPanel.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/SolarPanel.cpp.o
+.PHONY : src/SolarPanel.cpp.o
+
+src/SolarPanel.i: src/SolarPanel.cpp.i
+
+.PHONY : src/SolarPanel.i
+
+# target to preprocess a source file
+src/SolarPanel.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/SolarPanel.cpp.i
+.PHONY : src/SolarPanel.cpp.i
+
+src/SolarPanel.s: src/SolarPanel.cpp.s
+
+.PHONY : src/SolarPanel.s
+
+# target to generate assembly for a file
+src/SolarPanel.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/SolarPanel.cpp.s
+.PHONY : src/SolarPanel.cpp.s
+
+src/TestWheelLockedFridge.o: src/TestWheelLockedFridge.cpp.o
+
+.PHONY : src/TestWheelLockedFridge.o
+
+# target to build an object file
+src/TestWheelLockedFridge.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.o
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/TestWheelLockedFridge.cpp.o
+.PHONY : src/TestWheelLockedFridge.cpp.o
+
+src/TestWheelLockedFridge.i: src/TestWheelLockedFridge.cpp.i
+
+.PHONY : src/TestWheelLockedFridge.i
+
+# target to preprocess a source file
+src/TestWheelLockedFridge.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.i
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/TestWheelLockedFridge.cpp.i
+.PHONY : src/TestWheelLockedFridge.cpp.i
+
+src/TestWheelLockedFridge.s: src/TestWheelLockedFridge.cpp.s
+
+.PHONY : src/TestWheelLockedFridge.s
+
+# target to generate assembly for a file
+src/TestWheelLockedFridge.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/TestWheelLockedFridge.cpp.s
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/TestWheelLockedFridge.cpp.s
+.PHONY : src/TestWheelLockedFridge.cpp.s
 
 src/Test_Main.o: src/Test_Main.cpp.o
 
@@ -156,6 +253,8 @@ src/Test_Main.o: src/Test_Main.cpp.o
 # target to build an object file
 src/Test_Main.cpp.o:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.o
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_Main.cpp.o
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/Test_Main.cpp.o
 .PHONY : src/Test_Main.cpp.o
 
 src/Test_Main.i: src/Test_Main.cpp.i
@@ -165,6 +264,8 @@ src/Test_Main.i: src/Test_Main.cpp.i
 # target to preprocess a source file
 src/Test_Main.cpp.i:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.i
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_Main.cpp.i
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/Test_Main.cpp.i
 .PHONY : src/Test_Main.cpp.i
 
 src/Test_Main.s: src/Test_Main.cpp.s
@@ -174,7 +275,36 @@ src/Test_Main.s: src/Test_Main.cpp.s
 # target to generate assembly for a file
 src/Test_Main.cpp.s:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/Test_Main.cpp.s
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_Main.cpp.s
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/Test_Main.cpp.s
 .PHONY : src/Test_Main.cpp.s
+
+src/Test_doorstatus.o: src/Test_doorstatus.cpp.o
+
+.PHONY : src/Test_doorstatus.o
+
+# target to build an object file
+src/Test_doorstatus.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.o
+.PHONY : src/Test_doorstatus.cpp.o
+
+src/Test_doorstatus.i: src/Test_doorstatus.cpp.i
+
+.PHONY : src/Test_doorstatus.i
+
+# target to preprocess a source file
+src/Test_doorstatus.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.i
+.PHONY : src/Test_doorstatus.cpp.i
+
+src/Test_doorstatus.s: src/Test_doorstatus.cpp.s
+
+.PHONY : src/Test_doorstatus.s
+
+# target to generate assembly for a file
+src/Test_doorstatus.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_doorstatus.cpp.s
+.PHONY : src/Test_doorstatus.cpp.s
 
 src/Test_fridge.o: src/Test_fridge.cpp.o
 
@@ -183,6 +313,7 @@ src/Test_fridge.o: src/Test_fridge.cpp.o
 # target to build an object file
 src/Test_fridge.cpp.o:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.o
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_fridge.cpp.o
 .PHONY : src/Test_fridge.cpp.o
 
 src/Test_fridge.i: src/Test_fridge.cpp.i
@@ -192,6 +323,7 @@ src/Test_fridge.i: src/Test_fridge.cpp.i
 # target to preprocess a source file
 src/Test_fridge.cpp.i:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.i
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_fridge.cpp.i
 .PHONY : src/Test_fridge.cpp.i
 
 src/Test_fridge.s: src/Test_fridge.cpp.s
@@ -201,7 +333,116 @@ src/Test_fridge.s: src/Test_fridge.cpp.s
 # target to generate assembly for a file
 src/Test_fridge.cpp.s:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/Test_fridge.cpp.s
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/Test_fridge.cpp.s
 .PHONY : src/Test_fridge.cpp.s
+
+src/WheelLocked.o: src/WheelLocked.cpp.o
+
+.PHONY : src/WheelLocked.o
+
+# target to build an object file
+src/WheelLocked.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLocked.cpp.o
+.PHONY : src/WheelLocked.cpp.o
+
+src/WheelLocked.i: src/WheelLocked.cpp.i
+
+.PHONY : src/WheelLocked.i
+
+# target to preprocess a source file
+src/WheelLocked.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLocked.cpp.i
+.PHONY : src/WheelLocked.cpp.i
+
+src/WheelLocked.s: src/WheelLocked.cpp.s
+
+.PHONY : src/WheelLocked.s
+
+# target to generate assembly for a file
+src/WheelLocked.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLocked.cpp.s
+.PHONY : src/WheelLocked.cpp.s
+
+src/WheelLockedFridge.o: src/WheelLockedFridge.cpp.o
+
+.PHONY : src/WheelLockedFridge.o
+
+# target to build an object file
+src/WheelLockedFridge.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.o
+.PHONY : src/WheelLockedFridge.cpp.o
+
+src/WheelLockedFridge.i: src/WheelLockedFridge.cpp.i
+
+.PHONY : src/WheelLockedFridge.i
+
+# target to preprocess a source file
+src/WheelLockedFridge.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.i
+.PHONY : src/WheelLockedFridge.cpp.i
+
+src/WheelLockedFridge.s: src/WheelLockedFridge.cpp.s
+
+.PHONY : src/WheelLockedFridge.s
+
+# target to generate assembly for a file
+src/WheelLockedFridge.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedFridge.cpp.s
+.PHONY : src/WheelLockedFridge.cpp.s
+
+src/WheelLockedSolarPanel.o: src/WheelLockedSolarPanel.cpp.o
+
+.PHONY : src/WheelLockedSolarPanel.o
+
+# target to build an object file
+src/WheelLockedSolarPanel.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.o
+.PHONY : src/WheelLockedSolarPanel.cpp.o
+
+src/WheelLockedSolarPanel.i: src/WheelLockedSolarPanel.cpp.i
+
+.PHONY : src/WheelLockedSolarPanel.i
+
+# target to preprocess a source file
+src/WheelLockedSolarPanel.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.i
+.PHONY : src/WheelLockedSolarPanel.cpp.i
+
+src/WheelLockedSolarPanel.s: src/WheelLockedSolarPanel.cpp.s
+
+.PHONY : src/WheelLockedSolarPanel.s
+
+# target to generate assembly for a file
+src/WheelLockedSolarPanel.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/WheelLockedSolarPanel.cpp.s
+.PHONY : src/WheelLockedSolarPanel.cpp.s
+
+src/doorstatus.o: src/doorstatus.cpp.o
+
+.PHONY : src/doorstatus.o
+
+# target to build an object file
+src/doorstatus.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/doorstatus.cpp.o
+.PHONY : src/doorstatus.cpp.o
+
+src/doorstatus.i: src/doorstatus.cpp.i
+
+.PHONY : src/doorstatus.i
+
+# target to preprocess a source file
+src/doorstatus.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/doorstatus.cpp.i
+.PHONY : src/doorstatus.cpp.i
+
+src/doorstatus.s: src/doorstatus.cpp.s
+
+.PHONY : src/doorstatus.s
+
+# target to generate assembly for a file
+src/doorstatus.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/doorstatus.cpp.s
+.PHONY : src/doorstatus.cpp.s
 
 src/fridge.o: src/fridge.cpp.o
 
@@ -210,6 +451,8 @@ src/fridge.o: src/fridge.cpp.o
 # target to build an object file
 src/fridge.cpp.o:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.o
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.o
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/fridge.cpp.o
 .PHONY : src/fridge.cpp.o
 
 src/fridge.i: src/fridge.cpp.i
@@ -219,6 +462,8 @@ src/fridge.i: src/fridge.cpp.i
 # target to preprocess a source file
 src/fridge.cpp.i:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.i
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.i
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/fridge.cpp.i
 .PHONY : src/fridge.cpp.i
 
 src/fridge.s: src/fridge.cpp.s
@@ -228,7 +473,36 @@ src/fridge.s: src/fridge.cpp.s
 # target to generate assembly for a file
 src/fridge.cpp.s:
 	$(MAKE) -f CMakeFiles/Test_fridge.dir/build.make CMakeFiles/Test_fridge.dir/src/fridge.cpp.s
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/fridge.cpp.s
+	$(MAKE) -f CMakeFiles/TestWheelLockedFridge.dir/build.make CMakeFiles/TestWheelLockedFridge.dir/src/fridge.cpp.s
 .PHONY : src/fridge.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/sources.dir/build.make CMakeFiles/sources.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -237,19 +511,47 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... gtest"
 	@echo "... Test_fridge"
 	@echo "... sources"
-	@echo "... gtest"
-	@echo "... rebuild_cache"
+	@echo "... TestWheelLockedFridge"
+	@echo "... mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.o"
+	@echo "... mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.i"
+	@echo "... mnt/c/Users/Candy/projects/googletest/googletest/src/gtest-all.s"
+	@echo "... src/SolarPanel.o"
+	@echo "... src/SolarPanel.i"
+	@echo "... src/SolarPanel.s"
+	@echo "... src/TestWheelLockedFridge.o"
+	@echo "... src/TestWheelLockedFridge.i"
+	@echo "... src/TestWheelLockedFridge.s"
 	@echo "... src/Test_Main.o"
 	@echo "... src/Test_Main.i"
 	@echo "... src/Test_Main.s"
+	@echo "... src/Test_doorstatus.o"
+	@echo "... src/Test_doorstatus.i"
+	@echo "... src/Test_doorstatus.s"
 	@echo "... src/Test_fridge.o"
 	@echo "... src/Test_fridge.i"
 	@echo "... src/Test_fridge.s"
+	@echo "... src/WheelLocked.o"
+	@echo "... src/WheelLocked.i"
+	@echo "... src/WheelLocked.s"
+	@echo "... src/WheelLockedFridge.o"
+	@echo "... src/WheelLockedFridge.i"
+	@echo "... src/WheelLockedFridge.s"
+	@echo "... src/WheelLockedSolarPanel.o"
+	@echo "... src/WheelLockedSolarPanel.i"
+	@echo "... src/WheelLockedSolarPanel.s"
+	@echo "... src/doorstatus.o"
+	@echo "... src/doorstatus.i"
+	@echo "... src/doorstatus.s"
 	@echo "... src/fridge.o"
 	@echo "... src/fridge.i"
 	@echo "... src/fridge.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

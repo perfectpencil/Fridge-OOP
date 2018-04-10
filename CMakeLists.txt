@@ -86,12 +86,12 @@ include_directories(SYSTEM
 #
 # build the static gtest library (goes in lib folder)
 #
-add_library(gtest STATIC ${GTEST_TEST_DIR}/src/gtest-all.cc include/wheeledfridge.h include/SolarPanel.h include/WheelLockedSolarPanel.h)
+add_library(gtest STATIC ${GTEST_TEST_DIR}/src/gtest-all.cc include/WheelLockedFridge.h include/SolarPanel.h include/WheelLockedSolarPanel.h include/WheelLockedSolarPanelFridge.h)
 
 #
 # build the static sources library (all regular source files)
 #
-add_library(sources STATIC ${SOURCES} src/main.cpp src/wheeledfridge.cpp src/SolarPanel.cpp src/WheelLockedSolarPanel.cpp)
+add_library(sources STATIC ${SOURCES} src/main.cpp src/WheelLockedFridge.cpp src/SolarPanel.cpp src/WheelLockedSolarPanel.cpp src/TestWheelLockedFridge.cpp src/WheelLockedSolarPanelFridge.cpp src/TestWheelLockedSolarPanelFridge.cpp)
 
 target_link_libraries(gtest ${CMAKE_THREAD_LIBS_INIT})
 
@@ -101,10 +101,14 @@ target_link_libraries(gtest ${CMAKE_THREAD_LIBS_INIT})
 add_executable(Test_fridge src/Test_fridge.cpp src/Test_Main.cpp src/fridge.cpp)
 target_link_libraries(Test_fridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 
+add_executable(TestWheelLockedFridge src/TestWheelLockedFridge.cpp src/Test_Main.cpp src/fridge.cpp)
+target_link_libraries(TestWheelLockedFridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+
+add_executable(TestWheelLockedSolarPanelFridge src/TestWheelLockedSolarPanelFridge.cpp src/Test_Main.cpp)
+target_link_libraries(TestWheelLockedSolarPanelFridge ${CMAKE_THREAD_LIBS_INIT} gtest sources)
+
+
 #add_executable(main src/main.cpp src/main.cpp src/fridge.cpp)
 #target_link_libraries(main ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 
-
-#add_executable(Test_doorstatus src/Test_doorstatus.cpp src/Test_Main.cpp)
-#target_link_libraries(Test_doorstatus ${CMAKE_THREAD_LIBS_INIT} gtest sources)
 

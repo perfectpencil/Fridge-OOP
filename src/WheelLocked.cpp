@@ -3,7 +3,7 @@
 
 namespace fridge1 {
     WheelLocked::WheelLocked() : locked(true) {
-        std::cout << "made WheelLocked@" << ((void*) this) << std::endl;
+        std::cout << "made WheelLocked1@" << ((void*) this) << std::endl;
     }
 
     void WheelLocked::lock() {locked = true; }
